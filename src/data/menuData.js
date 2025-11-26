@@ -6,64 +6,93 @@ export const menuData = {
       name: 'Meals',
       subcategories: [
         {
-          id: 'special-soups',
-          name: 'Special Soups & Morsels',
+          id: 'standard-breakfast',
+          name: 'Standard Breakfast',
           items: [
-            {
-              id: 1,
-              name: 'White soup with any morsel',
-              description: 'Served with turkey',
-              price: '₦17,000.00',
-              image: '/images/white-soup.jpg'
-            },
-            {
-              id: 2,
-              name: 'White soup with any morsel',
-              description: 'Served with chicken or beef',
-              price: '₦17,000.00',
-              image: '/images/white-soup-2.jpg'
-            },
-            {
-              id: 3,
-              name: 'Vegetable soup with any morsel',
-              description: 'Fresh vegetables with your choice of protein',
-              price: '₦15,000.00',
-              image: '/images/vegetable-soup.jpg'
-            },
-            {
-              id: 4,
-              name: 'Egusi soup special',
-              description: 'Rich melon seed soup with assorted meat',
-              price: '₦18,000.00',
-              image: '/images/egusi-soup.jpg'
-            }
+            { id: 'sb1', name: 'Omelet Combo', description: 'Omelet, Sausage, Baked Beans, Bread', price: '₦4,000', image: '/images/breakfast.jpg' },
+            { id: 'sb2', name: 'Boiled Yam & Egg Sauce', description: 'Fresh boiled yam with savory egg sauce', price: '₦4,000', image: '/images/yam-egg.jpg' },
+            { id: 'sb3', name: 'Akara/Moi-Moi & Pap', description: 'Bean cakes or pudding with corn pap', price: '₦4,000', image: '/images/akara-pap.jpg' },
+            { id: 'sb4', name: 'Custard or Cornflakes', description: 'Creamy custard or crunchy cornflakes', price: '₦4,000', image: '/images/cereal.jpg' },
+            { id: 'sb5', name: 'Plantain & Egg Sauce', description: 'Fried plantain with egg sauce', price: '₦4,000', image: '/images/plantain-egg.jpg' }
           ]
         },
         {
-          id: 'rice-dishes',
-          name: 'Rice Dishes',
+          id: 'english-breakfast',
+          name: 'English Breakfast',
           items: [
-            {
-              id: 5,
-              name: 'Jollof rice with chicken',
-              description: 'Classic Nigerian jollof with grilled chicken',
-              price: '₦12,000.00',
-              image: '/images/jollof-rice.jpg'
-            },
-            {
-              id: 6,
-              name: 'Fried rice combo',
-              description: 'Colorful fried rice with plantain and protein',
-              price: '₦13,500.00',
-              image: '/images/fried-rice.jpg'
-            },
-            {
-              id: 7,
-              name: 'Coconut rice',
-              description: 'Aromatic rice cooked in coconut milk',
-              price: '₦11,000.00',
-              image: '/images/jollof-rice.jpg'
-            }
+            { id: 'eb1', name: 'Cereal & Toast Combo', description: 'Toast/Fresh Bread with choice of Cereal  (Custard, Oat, or Cornflakes) served with choice of Egg (Scrambled/Sunny Side Up/Boiled Egg)', price: '₦7,000', image: '/images/cereal.jpg' },
+            { id: 'eb2', name: 'Savory English Breakfast Combo', description: '(Tomato/Plain/Spanish/ Sardine) with Sausage & Baked Beans', price: '₦7,000', image: '/images/english-breakfast.jpg' }
+          ]
+        },
+        {
+          id: 'appetizers',
+          name: 'Appetizers',
+          items: [
+            { id: 'ap1', name: 'Pepper Soup', description: 'Chicken / Cow Tail / Cow Leg / Assorted Goat Meat / Turkey', price: '₦6,500', image: '/images/peppersoup.jpg' },
+            { id: 'ap2', name: 'Croaker Fish BBQ', description: 'Served with Chips', price: '₦15,000', image: '/images/fish-bbq.jpg' },
+            { id: 'ap3', name: 'Croaker Fish Pepper Soup', description: 'Served with Yam or Rice', price: '₦14,000', image: '/images/peppersoup.jpg' },
+            { id: 'ap4', name: 'Giant BBQ Croaker Fish', description: 'Whole grilled croaker', price: '₦25,000', image: '/images/fish-bbq.jpg' },
+            { id: 'ap5', name: 'Cat-Fish Pepper Soup', description: 'Served with Yam or Rice', price: '₦9,000', image: '/images/peppersoup.jpg' },
+            { id: 'ap6', name: 'Nkwobi', description: 'Spicy cow foot delicacy', price: '₦6,500', image: '/images/nkwobi.jpg' },
+            { id: 'ap7', name: 'BBQ Cat-Fish', description: 'Grilled catfish', price: '₦10,000', image: '/images/fish-bbq.jpg' },
+            { id: 'ap8', name: 'Isi-Ewu', description: 'Spicy goat head', price: '₦10,000', image: '/images/isiewu.jpg' },
+            { id: 'ap9', name: 'Pepper Snail', description: 'Spicy snail', price: '₦11,000', image: '/images/snail.jpg' },
+            { id: 'ap10', name: 'Pepper Gizard', description: 'Spicy gizzard', price: '₦7,500', image: '/images/gizzard.jpg' }
+          ]
+        },
+        {
+          id: 'lunch-dinner',
+          name: 'Lunch & Dinner',
+          items: [
+            { id: 'ld1', name: 'Yamarita', description: 'With any choice of protein • Free Water', price: '₦9,000', image: '/images/yamarita.jpg' },
+            { id: 'ld2', name: 'Special Fried Rice', description: 'With Sea Foods • Free Water', price: '₦20,000', image: '/images/fried-rice.jpg' },
+            { id: 'ld3', name: 'Chicken & Chips', description: 'In Creamy Sauce • Free Water', price: '₦8,500', image: '/images/chicken-chips.jpg' },
+            { id: 'ld4', name: 'Presken Special Noodles', description: 'House special noodles • Free Water', price: '₦6,500', image: '/images/noodles.jpg' },
+            { id: 'ld5', name: 'Noodles with Protein', description: 'Served with Turkey/Chicken/Other Protein • Free Water', price: '₦8,500', image: '/images/noodles.jpg' },
+            { id: 'ld6', name: 'Plantain with Protein', description: 'With Goat Meat/Chicken/Beef • Free Water', price: '₦8,500', image: '/images/plantain.jpg' }
+          ]
+        },
+        {
+          id: 'pasta',
+          name: 'Pasta',
+          items: [
+            { id: 'p1', name: 'Spaghetti with Protein', description: 'Choice of Spaghetti with choice of protein • Free Water', price: '₦8,500', image: '/images/pasta.jpg' },
+            { id: 'p2', name: 'Spaghetti Bolognese', description: 'Classic meat sauce • Free Water', price: '₦10,000', image: '/images/pasta.jpg' },
+            { id: 'p3', name: 'Vegetable Pasta', description: 'Mixed vegetables • Free Water', price: '₦8,500', image: '/images/pasta.jpg' },
+            { id: 'p4', name: 'Stir Fried Spaghetti', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/pasta.jpg' },
+            { id: 'p5', name: 'Noodles & Egg', description: 'Simple noodles with egg • Free Water', price: '₦4,500', image: '/images/noodles.jpg' }
+          ]
+        },
+        {
+          id: 'main-dish',
+          name: 'Main Dish (Rice)',
+          items: [
+            { id: 'md1', name: 'Jollof /Fried/ White Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/jollof-rice.jpg' },
+            { id: 'md2', name: 'Brown / Ofada / Coconut Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/ofada.jpg' }
+          ]
+        },
+        {
+          id: 'swallow',
+          name: 'Swallow',
+          items: [
+            { id: 'sw1', name: 'Swallow with Soup', description: 'Poundo Yam/Semovita/Pounded Yam/Wheat/Eba/Amala served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' }
+          ]
+        },
+        {
+          id: 'special-soup',
+          name: 'Special Soup',
+          items: [
+            { id: 'ss1', name: 'Special Soup with Swallow', description: 'Bitter Leaf, Oha, Groudnut Soup, White Soup, Banga Soup, Afang & Black Soup with any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' }
+          ]
+        },
+        {
+          id: 'extra',
+          name: 'Extra',
+          items: [
+            { id: 'ex1', name: 'Swallow', description: 'Extra portion', price: '₦2,500', image: '/images/swallow.jpg' },
+            { id: 'ex2', name: 'Rice', description: 'Extra portion', price: '₦2,500', image: '/images/rice.jpg' },
+            { id: 'ex3', name: 'Plantain', description: 'Extra portion', price: '₦2,500', image: '/images/plantain.jpg' },
+            { id: 'ex4', name: 'Protein', description: 'Extra portion', price: '₦6,000', image: '/images/chicken.jpg' }
           ]
         }
       ]
@@ -135,194 +164,239 @@ export const menuData = {
           id: 'soft-drinks',
           name: 'Soft Drinks',
           items: [
-            {
-              id: 13,
-              name: 'Mineral Water',
-              description: 'Chilled bottled water',
-              price: '₦500.00',
-              image: '/images/craft-beer.jpg'
-            },
-            {
-              id: 14,
-              name: 'Maltina',
-              description: 'Non-alcoholic malt drink',
-              price: '₦800.00',
-              image: '/images/craft-beer.jpg'
-            },
-            {
-              id: 15,
-              name: 'Schweppes',
-              description: 'Sparkling soft drink',
-              price: '₦800.00',
-              image: '/images/craft-beer.jpg'
-            },
-            {
-              id: 16,
-              name: 'Vita Milk',
-              description: 'Refreshing milk drink',
-              price: '₦600.00',
-              image: '/images/craft-beer.jpg'
-            }
+            { id: 'sd1', name: 'Pet Mineral', description: 'Coke, Fanta, Sprite', price: '₦800', image: '/images/soft-drinks.jpg' },
+            { id: 'sd2', name: 'Teem', description: 'Refreshing soda', price: '₦800', image: '/images/soft-drinks.jpg' },
+            { id: 'sd3', name: 'Pulpy', description: 'Fruit juice drink', price: '₦800', image: '/images/soft-drinks.jpg' },
+            { id: 'sd4', name: 'Fayrouz', description: 'Sparkling soft drink', price: '₦800', image: '/images/soft-drinks.jpg' },
+            { id: 'sd5', name: 'Small Water', description: 'Bottled water', price: '₦400', image: '/images/water.jpg' },
+            { id: 'sd6', name: 'Swan Water', description: 'Premium bottled water', price: '₦400', image: '/images/water.jpg' },
+            { id: 'sd7', name: 'Big Water', description: 'Large bottled water', price: '₦700', image: '/images/water.jpg' },
+            { id: 'sd8', name: 'Amstel Malt', description: 'Premium malt drink', price: '₦1,000', image: '/images/malt.jpg' },
+            { id: 'sd9', name: 'Maltina', description: 'Classic malt drink', price: '₦1,000', image: '/images/malt.jpg' },
+            { id: 'sd10', name: 'Vita Milk', description: 'Soy milk drink', price: '₦2,500', image: '/images/vitamilk.jpg' },
+            { id: 'sd11', name: 'Schweppes', description: 'Sparkling mixer', price: '₦1,000', image: '/images/schweppes.jpg' }
           ]
         },
         {
-          id: 'juices',
-          name: 'Juices',
+          id: 'juice',
+          name: 'Juice',
           items: [
-            {
-              id: 17,
-              name: 'Fresh Orange Juice',
-              description: 'Freshly squeezed orange juice',
-              price: '₦2,500.00',
-              image: '/images/chapman.jpg'
-            },
-            {
-              id: 18,
-              name: 'Pineapple Juice',
-              description: 'Fresh pineapple juice',
-              price: '₦2,500.00',
-              image: '/images/chapman.jpg'
-            }
-          ]
-        },
-        {
-          id: 'vodka',
-          name: 'Vodka',
-          items: [
-            {
-              id: 19,
-              name: 'Smirnoff',
-              description: 'Premium vodka',
-              price: '₦15,000.00',
-              image: '/images/craft-beer.jpg'
-            },
-            {
-              id: 20,
-              name: 'Absolut',
-              description: 'Swedish vodka',
-              price: '₦18,000.00',
-              image: '/images/craft-beer.jpg'
-            }
-          ]
-        },
-        {
-          id: 'cognac',
-          name: 'Cognac',
-          items: [
-            {
-              id: 21,
-              name: 'Hennessy VS',
-              description: 'Classic cognac',
-              price: '₦45,000.00',
-              image: '/images/craft-beer.jpg'
-            },
-            {
-              id: 22,
-              name: 'Rémy Martin VSOP',
-              description: 'Premium cognac',
-              price: '₦55,000.00',
-              image: '/images/craft-beer.jpg'
-            }
-          ]
-        },
-        {
-          id: 'whiskey',
-          name: 'Whiskey',
-          items: [
-            {
-              id: 23,
-              name: 'Jameson',
-              description: 'Irish whiskey',
-              price: '₦25,000.00',
-              image: '/images/craft-beer.jpg'
-            },
-            {
-              id: 24,
-              name: 'Jack Daniels',
-              description: 'Tennessee whiskey',
-              price: '₦28,000.00',
-              image: '/images/craft-beer.jpg'
-            }
-          ]
-        },
-        {
-          id: 'wine',
-          name: 'Wine',
-          items: [
-            {
-              id: 25,
-              name: 'Red Wine (House)',
-              description: 'Our selection of red wine',
-              price: '₦12,000.00',
-              image: '/images/palm-wine.jpg'
-            },
-            {
-              id: 26,
-              name: 'White Wine (House)',
-              description: 'Our selection of white wine',
-              price: '₦12,000.00',
-              image: '/images/palm-wine.jpg'
-            }
+            { id: 'j1', name: 'Active', description: 'Fruit juice', price: '₦3,000', image: '/images/juice.jpg' },
+            { id: 'j2', name: 'Exotic', description: 'Exotic fruit blend', price: '₦3,000', image: '/images/juice.jpg' },
+            { id: 'j3', name: 'Hollandia', description: 'Yogurt drink', price: '₦3,000', image: '/images/juice.jpg' },
+            { id: 'j4', name: 'Cranberry', description: 'Cranberry juice', price: '₦12,000', image: '/images/cranberry.jpg' }
           ]
         },
         {
           id: 'beer',
           name: 'Beer',
           items: [
-            {
-              id: 27,
-              name: 'Heineken',
-              description: 'Premium lager beer',
-              price: '₦1,500.00',
-              image: '/images/craft-beer.jpg'
-            },
-            {
-              id: 28,
-              name: 'Guinness',
-              description: 'Stout beer',
-              price: '₦1,500.00',
-              image: '/images/craft-beer.jpg'
-            }
+            { id: 'b1', name: 'Big Stout', description: 'Guinness Extra Stout', price: '₦2,500', image: '/images/stout.jpg' },
+            { id: 'b2', name: 'Smirnoff (B)', description: 'Smirnoff Ice Black', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b3', name: 'Budweiser', description: 'King of beers', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b4', name: 'Heineken', description: 'Premium lager', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b5', name: 'Legend', description: 'Extra stout', price: '₦2,000', image: '/images/stout.jpg' },
+            { id: 'b6', name: 'Gulder', description: 'The ultimate beer', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b7', name: 'Star', description: 'Fine lager beer', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b8', name: 'Trophy Stout', description: 'Stout beer', price: '₦2,000', image: '/images/stout.jpg' },
+            { id: 'b9', name: 'Goldberg', description: 'Lager beer', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b10', name: '33 Export', description: 'Lager beer', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b11', name: 'Goldberg Black', description: 'Dark lager', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b12', name: 'Medium Heineken', description: 'Lager beer', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b13', name: 'G/Smooth', description: 'Guinness Smooth', price: '₦2,000', image: '/images/stout.jpg' },
+            { id: 'b14', name: 'Trophy', description: 'Lager beer', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b15', name: 'Desperado', description: 'Tequila flavoured beer', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b16', name: 'Hero', description: 'Lager beer', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b17', name: 'Tiger', description: 'Asian lager', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b18', name: 'Castle Lite', description: 'Light beer', price: '₦2,000', image: '/images/beer.jpg' },
+            { id: 'b19', name: 'Origin (B)', description: 'Herbal drink', price: '₦1,500', image: '/images/origin.jpg' },
+            { id: 'b20', name: 'Small Stout', description: 'Guinness Extra Stout', price: '₦1,500', image: '/images/stout.jpg' },
+            { id: 'b21', name: 'Flying Fish', description: 'Lager beer', price: '₦1,200', image: '/images/beer.jpg' },
+            { id: 'b22', name: 'Star Radler', description: 'Citrus flavoured beer', price: '₦1,200', image: '/images/beer.jpg' },
+            { id: 'b23', name: 'Smirnoff (S)', description: 'Smirnoff Ice', price: '₦1,000', image: '/images/beer.jpg' }
           ]
         },
         {
-          id: 'cocktails',
-          name: 'Cocktails',
+          id: 'energy-drinks',
+          name: 'Energy Drinks',
           items: [
-            {
-              id: 29,
-              name: 'Chapman',
-              description: 'Refreshing Nigerian cocktail with citrus',
-              price: '₦3,500.00',
-              image: '/images/chapman.jpg'
-            },
-            {
-              id: 30,
-              name: 'Mojito',
-              description: 'Classic mint and lime cocktail',
-              price: '₦4,000.00',
-              image: '/images/chapman.jpg'
-            }
+            { id: 'ed1', name: 'Power Horse', description: 'Energy drink', price: '₦2,500', image: '/images/energy.jpg' },
+            { id: 'ed2', name: 'Red Bull', description: 'Energy drink', price: '₦2,500', image: '/images/redbull.jpg' },
+            { id: 'ed3', name: 'Monster', description: 'Energy drink', price: '₦2,500', image: '/images/monster.jpg' },
+            { id: 'ed4', name: 'Black Bullet', description: 'Energy drink', price: '₦2,500', image: '/images/energy.jpg' }
           ]
         },
         {
-          id: 'local-drinks',
-          name: 'Local Drinks',
+          id: 'sparkling-drinks',
+          name: 'Sparkling Drinks',
           items: [
-            {
-              id: 31,
-              name: 'Zobo drink',
-              description: 'Hibiscus tea with ginger and pineapple',
-              price: '₦2,000.00',
-              image: '/images/zobo.jpg'
-            },
-            {
-              id: 32,
-              name: 'Fresh palm wine',
-              description: 'Traditional palm wine served chilled',
-              price: '₦4,000.00',
-              image: '/images/palm-wine.jpg'
-            }
+            { id: 'spd1', name: 'Andre Brut', description: 'Sparkling wine', price: '₦20,000', image: '/images/sparkling.jpg' },
+            { id: 'spd2', name: 'Andre Rose', description: 'Sparkling rosé', price: '₦20,000', image: '/images/sparkling.jpg' },
+            { id: 'spd3', name: 'Chamdor', description: 'Non-alcoholic sparkling', price: '₦9,000', image: '/images/sparkling.jpg' }
+          ]
+        },
+        {
+          id: 'rum',
+          name: 'Rum',
+          items: [
+            { id: 'r1', name: 'Bacardi', description: 'White rum', price: '₦25,000', image: '/images/rum.jpg' }
+          ]
+        },
+        {
+          id: 'tequila',
+          name: 'Tequila',
+          items: [
+            { id: 't1', name: 'Olmeca Tequila', description: 'Silver tequila', price: '₦45,000', image: '/images/tequila.jpg' },
+            { id: 't2', name: 'Sierra Tequila', description: 'Silver tequila', price: '₦25,000', image: '/images/tequila.jpg' }
+          ]
+        },
+        {
+          id: 'vodka',
+          name: 'Vodka',
+          items: [
+            { id: 'v1', name: 'Absolute Vodka (S)', description: 'Small bottle', price: '₦10,000', image: '/images/vodka.jpg' },
+            { id: 'v2', name: 'Absolute Vodka (B)', description: 'Big bottle', price: '₦30,000', image: '/images/vodka.jpg' },
+            { id: 'v3', name: 'Smirnoff Choco (B)', description: 'Chocolate flavoured', price: '₦12,000', image: '/images/vodka.jpg' },
+            { id: 'v4', name: 'Smirnoff Choco (S)', description: 'Chocolate flavoured', price: '₦3,000', image: '/images/vodka.jpg' },
+            { id: 'v5', name: 'Magic Moment (B)', description: 'Premium vodka', price: '₦12,000', image: '/images/vodka.jpg' },
+            { id: 'v6', name: 'Magic Moment (S)', description: 'Premium vodka', price: '₦3,500', image: '/images/vodka.jpg' },
+            { id: 'v7', name: 'Grant (B)', description: 'Blended scotch', price: '₦10,000', image: '/images/whisky.jpg' },
+            { id: 'v8', name: 'Grant (S)', description: 'Blended scotch', price: '₦6,000', image: '/images/whisky.jpg' }
+          ]
+        },
+        {
+          id: 'bitters',
+          name: 'Bitters (Bottles)',
+          items: [
+            { id: 'bt1', name: 'Action Bitters (B)', description: 'Herbal bitters', price: '₦8,000', image: '/images/bitters.jpg' },
+            { id: 'bt2', name: 'Action Bitters (M)', description: 'Herbal bitters', price: '₦3,000', image: '/images/bitters.jpg' },
+            { id: 'bt3', name: 'Action Bitters (S)', description: 'Herbal bitters', price: '₦1,500', image: '/images/bitters.jpg' },
+            { id: 'bt4', name: 'Origin Bottle Big', description: 'Herbal drink', price: '₦8,000', image: '/images/origin.jpg' },
+            { id: 'bt5', name: 'Origin Bitters (B)', description: 'Herbal bitters', price: '₦6,000', image: '/images/origin.jpg' },
+            { id: 'bt6', name: 'Origin Bitters (M)', description: 'Herbal bitters', price: '₦3,000', image: '/images/origin.jpg' },
+            { id: 'bt7', name: 'Origin Beer', description: 'Herbal beer', price: '₦1,500', image: '/images/origin.jpg' },
+            { id: 'bt8', name: 'Kolaq Alagbo', description: 'Herbal mixture', price: '₦1,500', image: '/images/bitters.jpg' },
+            { id: 'bt9', name: 'Odogwu Bitters', description: 'Herbal bitters', price: '₦1,500', image: '/images/bitters.jpg' },
+            { id: 'bt10', name: 'Judge Bitters', description: 'Herbal bitters', price: '₦1,500', image: '/images/bitters.jpg' },
+            { id: 'bt11', name: 'Plastic Origin', description: 'Herbal drink', price: '₦2,000', image: '/images/origin.jpg' }
+          ]
+        },
+        {
+          id: 'gin',
+          name: 'Gin',
+          items: [
+            { id: 'g1', name: 'Gordon\'s Gin (B)', description: 'London dry gin', price: '₦15,000', image: '/images/gin.jpg' },
+            { id: 'g2', name: 'Gordon\'s Gin (M)', description: 'London dry gin', price: '₦5,000', image: '/images/gin.jpg' },
+            { id: 'g3', name: 'Gordon\'s Gin (S)', description: 'London dry gin', price: '₦3,000', image: '/images/gin.jpg' },
+            { id: 'g4', name: 'Pink Gordon', description: 'Pink gin', price: '₦15,000', image: '/images/gin.jpg' }
+          ]
+        },
+        {
+          id: 'aperitif',
+          name: 'Aperitif',
+          items: [
+            { id: 'ap1', name: 'Campari (B)', description: 'Italian aperitif', price: '₦40,000', image: '/images/campari.jpg' },
+            { id: 'ap2', name: 'Campari (M)', description: 'Italian aperitif', price: '₦30,000', image: '/images/campari.jpg' },
+            { id: 'ap3', name: 'Campari (S)', description: 'Italian aperitif', price: '₦12,000', image: '/images/campari.jpg' }
+          ]
+        },
+        {
+          id: 'whisky',
+          name: 'Whisky',
+          items: [
+            { id: 'w1', name: 'Black Label', description: 'Johnnie Walker', price: '₦60,000', image: '/images/whisky.jpg' },
+            { id: 'w2', name: 'Red Label (B)', description: 'Johnnie Walker', price: '₦30,000', image: '/images/whisky.jpg' },
+            { id: 'w3', name: 'Jack Daniels', description: 'Tennessee whiskey', price: '₦40,000', image: '/images/whisky.jpg' },
+            { id: 'w4', name: 'Altemura', description: 'Premium spirit', price: '₦100,000', image: '/images/whisky.jpg' },
+            { id: 'w5', name: 'Glenfiddich 18 Years', description: 'Single malt scotch', price: '₦200,000', image: '/images/whisky.jpg' },
+            { id: 'w6', name: 'Glenfiddich 15 Years', description: 'Single malt scotch', price: '₦150,000', image: '/images/whisky.jpg' },
+            { id: 'w7', name: 'Glenfiddich 12 Years', description: 'Single malt scotch', price: '₦120,000', image: '/images/whisky.jpg' },
+            { id: 'w8', name: 'Jameson (B)', description: 'Irish whiskey', price: '₦40,000', image: '/images/whisky.jpg' },
+            { id: 'w9', name: 'Jameson (S)', description: 'Irish whiskey', price: '₦15,000', image: '/images/whisky.jpg' },
+            { id: 'w10', name: 'Black Barrel', description: 'Jameson Select Reserve', price: '₦60,000', image: '/images/whisky.jpg' },
+            { id: 'w11', name: 'Best Whisky (B)', description: 'Blended whisky', price: '₦10,000', image: '/images/whisky.jpg' },
+            { id: 'w12', name: 'Best Whisky (S)', description: 'Blended whisky', price: '₦3,000', image: '/images/whisky.jpg' },
+            { id: 'w13', name: 'William Lawson', description: 'Blended scotch', price: '₦25,000', image: '/images/whisky.jpg' },
+            { id: 'w14', name: 'Monkey Shoulder', description: 'Blended malt scotch', price: '₦75,000', image: '/images/whisky.jpg' }
+          ]
+        },
+        {
+          id: 'cognac',
+          name: 'Cognac',
+          items: [
+            { id: 'c1', name: 'Hennessy V.S.O.P.', description: 'Very Superior Old Pale', price: '₦180,000', image: '/images/cognac.jpg' },
+            { id: 'c2', name: 'Hennessy VS', description: 'Very Special', price: '₦90,000', image: '/images/cognac.jpg' },
+            { id: 'c3', name: 'Remy Martins V.S.O.P.', description: 'Fine Champagne Cognac', price: '₦80,000', image: '/images/cognac.jpg' },
+            { id: 'c4', name: 'Remy Martins VS', description: 'Fine Champagne Cognac', price: '₦60,000', image: '/images/cognac.jpg' },
+            { id: 'c5', name: 'Martel VS', description: 'Fine Cognac', price: '₦60,000', image: '/images/cognac.jpg' },
+            { id: 'c6', name: 'Martel Swift', description: 'Fine Cognac', price: '₦130,000', image: '/images/cognac.jpg' }
+          ]
+        },
+        {
+          id: 'champagne',
+          name: 'Champagne',
+          items: [
+            { id: 'ch1', name: 'Moet Brut', description: 'Impérial Brut', price: '₦150,000', image: '/images/champagne.jpg' },
+            { id: 'ch2', name: 'Moet Rose', description: 'Impérial Rosé', price: '₦200,000', image: '/images/champagne.jpg' }
+          ]
+        },
+        {
+          id: 'liquor',
+          name: 'Liquor',
+          items: [
+            { id: 'l1', name: 'Baileys (Imported)', description: 'Irish Cream', price: '₦35,000', image: '/images/liquor.jpg' },
+            { id: 'l2', name: 'Baileys (Delight)', description: 'Irish Cream', price: '₦15,000', image: '/images/liquor.jpg' },
+            { id: 'l3', name: 'Baileys (S)', description: 'Irish Cream', price: '₦2,500', image: '/images/liquor.jpg' },
+            { id: 'l4', name: 'Amarula (B)', description: 'Cream Liqueur', price: '₦20,000', image: '/images/liquor.jpg' },
+            { id: 'l5', name: 'Amarula (S)', description: 'Cream Liqueur', price: '₦6,000', image: '/images/liquor.jpg' },
+            { id: 'l6', name: 'Best Cream (B)', description: 'Cream Liqueur', price: '₦12,000', image: '/images/liquor.jpg' },
+            { id: 'l7', name: 'Best Cream (S)', description: 'Cream Liqueur', price: '₦3,500', image: '/images/liquor.jpg' }
+          ]
+        },
+        {
+          id: 'red-wines',
+          name: 'Red Wines',
+          items: [
+            { id: 'rw1', name: 'Agor', description: 'Red wine', price: '₦13,000', image: '/images/wine.jpg' },
+            { id: 'rw2', name: 'Cape Discovery', description: 'Red wine', price: '₦8,000', image: '/images/wine.jpg' },
+            { id: 'rw3', name: 'Carlo Rossi', description: 'Red wine', price: '₦15,000', image: '/images/wine.jpg' },
+            { id: 'rw4', name: 'Casillero Dee Diabio (B)', description: 'Red wine', price: '₦20,000', image: '/images/wine.jpg' },
+            { id: 'rw5', name: 'Drostdy Hof (B)', description: 'Red wine', price: '₦15,000', image: '/images/wine.jpg' },
+            { id: 'rw6', name: 'Drostdy Hof (S)', description: 'Red wine', price: '₦7,000', image: '/images/wine.jpg' },
+            { id: 'rw7', name: 'Escodo Rojo', description: 'Red wine', price: '₦35,000', image: '/images/wine.jpg' },
+            { id: 'rw8', name: 'Four Cousin', description: 'Red wine', price: '₦12,000', image: '/images/wine.jpg' },
+            { id: 'rw9', name: '4th Street', description: 'Sweet red wine', price: '₦10,000', image: '/images/wine.jpg' },
+            { id: 'rw10', name: 'B&G Cuvee Special', description: 'Red wine', price: '₦15,000', image: '/images/wine.jpg' },
+            { id: 'rw11', name: 'Baron De Romero', description: 'Red wine', price: '₦8,000', image: '/images/wine.jpg' },
+            { id: 'rw12', name: 'Earon De valls', description: 'Red wine', price: '₦8,000', image: '/images/wine.jpg' },
+            { id: 'rw13', name: 'De vin', description: 'Red wine', price: '₦10,000', image: '/images/wine.jpg' },
+            { id: 'rw14', name: 'Declan', description: 'Red wine', price: '₦15,000', image: '/images/wine.jpg' },
+            { id: 'rw15', name: 'Oviation', description: 'Red wine', price: '₦12,000', image: '/images/wine.jpg' },
+            { id: 'rw16', name: 'Pure Heaven', description: 'Non-alcoholic wine', price: '₦12,000', image: '/images/wine.jpg' }
+          ]
+        }
+      ]
+    },
+    {
+      id: 'continental',
+      name: 'Continental Dishes',
+      subcategories: [
+        {
+          id: 'continental-main',
+          name: 'Special Continental Dishes',
+          items: [
+            { id: 'cd1', name: 'Shredded Chicken in Gravy Sauce', description: 'Served with your choice of Rice / Mashed / Boiled Potatoes with a Steam Rice', price: '₦15,000', image: '/images/chicken-gravy.jpg' },
+            { id: 'cd2', name: 'Chicken Chinese', description: 'Served with your choice of Fried / White / Steam or Jollof Rice', price: '₦15,000', image: '/images/chicken-chinese.jpg' },
+            { id: 'cd3', name: 'Spaghetti Neapolitan', description: 'Classic Italian pasta', price: '₦15,000', image: '/images/spaghetti-neapolitan.jpg' },
+            { id: 'cd4', name: 'Spaghetti Carbonara', description: 'Creamy Italian pasta', price: '₦15,000', image: '/images/spaghetti-carbonara.jpg' },
+            { id: 'cd5', name: 'Shredded Beef With White Sauce', description: 'Served with your choice of Rice', price: '₦15,000', image: '/images/beef-white-sauce.jpg' },
+            { id: 'cd6', name: 'Chicken Fingers With (Chips) Fries', description: 'Crispy chicken strips with fries', price: '₦12,500', image: '/images/chicken-fingers.jpg' },
+            { id: 'cd7', name: 'Chef Salad With Chicken', description: 'Fresh garden salad with grilled chicken', price: '₦12,500', image: '/images/chef-salad.jpg' },
+            { id: 'cd8', name: 'Noodles St. German', description: 'Specialty noodles', price: '₦13,500', image: '/images/noodles-german.jpg' },
+            { id: 'cd9', name: 'Chicken Kebab', description: 'Served with your choice of Rice / Chips', price: '₦12,500', image: '/images/chicken-kebab.jpg' },
+            { id: 'cd10', name: 'Fillet Fish with Sweet and Sour Sauce', description: 'Pan-fried fish fillet with tangy sauce', price: '₦12,500', image: '/images/fish-sweet-sour.jpg' },
+            { id: 'cd11', name: 'Beef Kebab', description: 'Served with your choice of Fried / White / Steam or Jollof Rice', price: '₦12,500', image: '/images/beef-kebab.jpg' },
+            { id: 'cd12', name: 'Chicken Escalope', description: 'Breaded chicken cutlet', price: '₦15,000', image: '/images/chicken-escalope.jpg' }
           ]
         }
       ]

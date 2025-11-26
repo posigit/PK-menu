@@ -16,9 +16,6 @@ const Hero = ({ searchQuery, onSearchChange }) => {
       </div>
       
       <div className={`hero-content ${loaded ? 'animate-in' : ''}`}>
-        <div className="brand-badge">
-          <span className="brand-subtitle">EST. 2016</span>
-        </div>
         
         <div className="logo-container">
            <img 
