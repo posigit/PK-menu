@@ -1,0 +1,134 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: var(--spacing-2xl) 0;
+  position: relative;
+  z-index: 10;
+}
+
+.category-section {
+  margin-bottom: var(--spacing-3xl);
+  animation: fadeInUp 0.6s var(--ease-smooth) forwards;
+}
+
+.category-name-luxury {
+  font-size: 2.5rem;
+  color: var(--color-brown-dark);
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-copper-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  max-width: 100%; /* Ensure it doesn't overflow */
+}
+
+.category-name-luxury::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 32px;
+  background: var(--color-brown-dark);
+  border-radius: 2px;
+}
+
+/* Search Results Styling */
+.search-results {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+.search-results-header {
+  margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-md);
+  background: var(--color-bg-surface);
+  border-radius: var(--radius-md);
+  color: var(--color-brown-dark);
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-weight: 600;
+  border: 1px solid rgba(161, 88, 44, 0.1);
+}
+
+/* Empty State - Luxury */
+.empty-state-luxury {
+  text-align: center;
+  padding: var(--spacing-3xl) var(--spacing-lg);
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.8;
+}
+
+.empty-text {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-brown-dark);
+  margin-bottom: var(--spacing-sm);
+}
+
+.footer-luxury {
+  background: var(--color-brown-dark);
+  padding: var(--spacing-2xl) 0;
+  margin-top: auto;
+  position: relative;
+  color: var(--color-text-light);
+}
+
+.footer-luxury::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--color-copper-primary);
+}
+
+.footer-content {
+  text-align: center;
+  color: rgba(240, 230, 210, 0.7);
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
+
+.footer-brand {
+  color: #ffffff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: var(--spacing-xl) 0; /* Reduce top padding on mobile */
+  }
+
+  .category-section {
+    margin-bottom: var(--spacing-2xl); /* Reduce section spacing on mobile */
+  }
+
+  .category-name-luxury {
+    font-size: 1.8rem;
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .category-name-luxury::before {
+    height: 24px; /* Smaller accent line */
+    width: 4px;
+  }
+}
