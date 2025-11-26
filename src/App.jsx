@@ -106,7 +106,7 @@ function App() {
         <div className="container">
           <div className="footer-content">
             <p>&copy; 2025 <span className="footer-brand">Presken Hotels & Resorts</span></p>
-            <p style={{ marginTop: '8px', opacity: 0.6 }}>Redefining Hospitality with Technology and Speed</p>
+            <p style={{ marginTop: '8px', opacity: 0.6 }}>Redefining Hospitality..</p>
           </div>
         </div>
       </footer>
@@ -115,3 +115,4 @@ function App() {
 }
 
 export default App;
+
