@@ -2,8 +2,13 @@ import React from 'react';
 import './MenuItem.css';
 
 const MenuItem = ({ item }) => {
+  const [isExpanded, setIsExpanded] = React.useState(false);
+
   return (
-    <div className="menu-item-luxury">
+    <div 
+      className={`menu-item-luxury ${isExpanded ? 'expanded' : ''}`}
+      onClick={() => setIsExpanded(!isExpanded)}
+    >
       <div className="menu-item-image-container">
         <img 
           src={item.image} 
@@ -23,7 +28,9 @@ const MenuItem = ({ item }) => {
           <span className="menu-item-price-luxury">{item.price}</span>
         </div>
         
-        <p className="menu-item-desc">{item.description}</p>
+        <p className={`menu-item-desc ${isExpanded ? 'expanded' : ''}`}>
+          {item.description}
+        </p>
         
         {/* Add button removed as per user request - pricelist only */}
       </div>

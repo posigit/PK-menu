@@ -98,60 +98,40 @@ export const menuData = {
       ]
     },
     {
-      id: 'grills',
-      name: 'Grills',
+      id: 'specials',
+      name: 'Specials',
       subcategories: [
         {
-          id: 'chicken',
-          name: 'Chicken',
+          id: 'special-meals',
+          name: 'Presken Food Menu Special Meals',
+          notice: 'Pounded Yam is Readily Available',
           items: [
-            {
-              id: 8,
-              name: 'Grilled chicken platter',
-              description: 'Perfectly seasoned grilled chicken with sides',
-              price: '₦15,000.00',
-              image: '/images/grilled-chicken.jpg'
-            },
-            {
-              id: 9,
-              name: 'BBQ chicken wings',
-              description: 'Spicy wings with our signature sauce',
-              price: '₦8,500.00',
-              image: '/images/grilled-chicken.jpg'
-            }
-          ]
-        },
-        {
-          id: 'beef',
-          name: 'Beef',
-          items: [
-            {
-              id: 10,
-              name: 'Suya platter',
-              description: 'Spicy grilled beef skewers with onions',
-              price: '₦8,000.00',
-              image: '/images/suya.jpg'
-            },
-            {
-              id: 11,
-              name: 'BBQ ribs',
-              description: 'Tender ribs with our signature BBQ sauce',
-              price: '₦22,000.00',
-              image: '/images/bbq-ribs.jpg'
-            }
-          ]
-        },
-        {
-          id: 'fish',
-          name: 'Fish & Seafood',
-          items: [
-            {
-              id: 12,
-              name: 'Grilled fish',
-              description: 'Fresh tilapia grilled to perfection',
-              price: '₦18,000.00',
-              image: '/images/grilled-fish.jpg'
-            }
+            { id: 'sm1', name: 'Sea Food Okro', description: 'Rich seafood okra soup', price: '₦20,000', image: '/images/seafood-okro.jpg' },
+            { id: 'sm2', name: 'Fisherman Soup', description: 'Traditional fisherman soup', price: '₦20,000', image: '/images/fisherman-soup.jpg' },
+            { id: 'sm3', name: 'Brown Rice', description: 'Healthy brown rice', price: '₦10,000', image: '/images/brown-rice.jpg' },
+            { id: 'sm4', name: 'Basmati Rice Jambalaya', description: 'Spicy basmati rice jambalaya', price: '₦15,000', image: '/images/basmati-jambalaya.jpg' },
+            { id: 'sm5', name: 'Basmati Rice (White, Jollof, Fried)', description: 'Choice of white, jollof or fried basmati', price: '₦15,000', image: '/images/basmati-rice.jpg' },
+            { id: 'sm6', name: 'Coconut Rice', description: 'Traditional coconut rice', price: '₦13,500', image: '/images/coconut-rice.jpg' },
+            { id: 'sm7', name: 'Basmati Coconut Rice', description: 'Coconut basmati rice', price: '₦15,000', image: '/images/coconut-rice.jpg' },
+            { id: 'sm8', name: 'Barbecue Croaker Fish', description: 'Grilled croaker fish', price: '₦20,000', image: '/images/croaker-bbq.jpg' },
+            { id: 'sm9', name: 'Barbecue Catfish', description: 'Grilled catfish', price: '₦10,000', image: '/images/catfish-bbq.jpg' },
+            { id: 'sm10', name: 'Crocker Fish Barbecue With Noodles', description: 'Grilled croaker with noodles', price: '₦23,000', image: '/images/croaker-noodles.jpg' },
+            { id: 'sm11', name: 'Catfish Barbecue With Noodles', description: 'Grilled catfish with noodles', price: '₦13,000', image: '/images/catfish-noodles.jpg' },
+            { id: 'sm12', name: 'Pepper Bush Meat', description: 'Spicy bush meat', price: '₦10,000', image: '/images/pepper-bush.jpg' },
+            { id: 'sm13', name: 'Ofada Rice', description: 'Local ofada rice', price: '₦15,000', image: '/images/ofada.jpg' },
+            { id: 'sm14', name: 'Bush Meat (With Swallow - 15,000)', description: 'Premium bush meat (with swallow)', price: '₦11,000', image: '/images/bushmeat.jpg' },
+            { id: 'sm15', name: 'Amala & Abula With Any Choice Of Protein', description: 'Amala with abula soup and protein', price: '₦10,000', image: '/images/amala-abula.jpg' },
+            { id: 'sm16', name: 'Catfish Omiobe With Rice', description: 'Catfish in omiobe sauce with rice', price: '₦15,000', image: '/images/catfish-omiobe.jpg' },
+            { id: 'sm17', name: 'Fry Catfish With Yam & Plantain', description: 'Fried catfish with yam and plantain', price: '₦15,000', image: '/images/catfish-yam.jpg' },
+            { id: 'sm18', name: 'Sea Food Rice', description: 'Rice with assorted seafood', price: '₦20,000', image: '/images/seafood-rice.jpg' },
+            { id: 'sm19', name: 'Spaghetti Jambalaya', description: 'Spicy spaghetti jambalaya', price: '₦13,500', image: '/images/spaghetti-jambalaya.jpg' },
+            { id: 'sm20', name: 'Black Soup', description: 'Traditional black soup', price: '₦15,000', image: '/images/black-soup.jpg' },
+            { id: 'sm21', name: 'Pepper Snail', description: 'Spicy snail', price: '₦10,000', image: '/images/snail.jpg' },
+            { id: 'sm22', name: 'White Soup With Any Choice Of Swallow', description: 'White soup with swallow choice', price: '₦15,000', image: '/images/white-soup.jpg' },
+            { id: 'sm23', name: 'Live Chicken Pepper Soup', description: 'Fresh chicken pepper soup', price: '₦30,000', image: '/images/chicken-peppersoup.jpg' },
+            { id: 'sm24', name: 'Live Chicken BBQ', description: 'Fresh grilled chicken', price: '₦35,000', image: '/images/live-chicken.jpg' },
+            { id: 'sm25', name: 'Food Platter', description: 'Assorted food platter', price: '₦25,000', image: '/images/food-platter.jpg' },
+            { id: 'sm26', name: 'Grilled Dragon (Full Goat)', description: 'Whole grilled goat', price: '₦250,000', image: '/images/grilled-goat.jpg' }
           ]
         }
       ]
@@ -402,47 +382,64 @@ export const menuData = {
       ]
     },
     {
-      id: 'smoothies',
-      name: 'Smoothies',
+      id: 'cocktails',
+      name: 'Cocktails',
       subcategories: [
         {
-          id: 'fruit-smoothies',
-          name: 'Fruit Smoothies',
+          id: 'cocktail-menu',
+          name: 'Cocktail Menu',
           items: [
-            {
-              id: 33,
-              name: 'Tropical mango smoothie',
-              description: 'Fresh mango blended with yogurt',
-              price: '₦3,000.00',
-              image: '/images/mango-smoothie.jpg'
-            },
-            {
-              id: 34,
-              name: 'Berry blast',
-              description: 'Mixed berries with banana and honey',
-              price: '₦3,500.00',
-              image: '/images/berry-smoothie.jpg'
-            },
-            {
-              id: 35,
-              name: 'Pineapple paradise',
-              description: 'Fresh pineapple with coconut milk',
-              price: '₦3,200.00',
-              image: '/images/pineapple-smoothie.jpg'
-            }
+            { id: 'ct1', name: 'Long Island Ice Tea', description: 'Classic mixed cocktail', price: '₦8,000', image: '/images/long-island.jpg' },
+            { id: 'ct2', name: 'Pina Colada', description: 'Tropical coconut and pineapple', price: '₦8,000', image: '/images/pina-colada.jpg' },
+            { id: 'ct3', name: 'Handsome Delight', description: 'Signature cocktail', price: '₦8,000', image: '/images/handsome-delight.jpg' },
+            { id: 'ct4', name: 'Watermelon Delight', description: 'Fresh watermelon cocktail', price: '₦8,000', image: '/images/watermelon-delight.jpg' },
+            { id: 'ct5', name: 'Margarita', description: 'Classic tequila cocktail', price: '₦7,000', image: '/images/margarita.jpg' },
+            { id: 'ct6', name: 'Tequila Sunrise', description: 'Tequila with orange and grenadine', price: '₦7,000', image: '/images/tequila-sunrise.jpg' },
+            { id: 'ct7', name: 'Sex On The Beach', description: 'Fruity vodka cocktail', price: '₦7,000', image: '/images/sex-beach.jpg' },
+            { id: 'ct8', name: 'Mojito', description: 'Refreshing mint and rum', price: '₦7,000', image: '/images/mojito.jpg' },
+            { id: 'ct9', name: 'Alcoholic Chapman', description: 'Nigerian favorite with alcohol', price: '₦7,000', image: '/images/alcoholic-chapman.jpg' },
+            { id: 'ct10', name: 'Gin & Tonic', description: 'Classic gin cocktail', price: '₦7,000', image: '/images/gin-tonic.jpg' },
+            { id: 'ct11', name: 'Screw Driver', description: 'Vodka and orange juice', price: '₦7,000', image: '/images/screwdriver.jpg' },
+            { id: 'ct12', name: 'Cosmopolitan', description: 'Elegant vodka cocktail', price: '₦7,000', image: '/images/cosmopolitan.jpg' },
+            { id: 'ct13', name: 'White Russia', description: 'Creamy vodka cocktail', price: '₦7,000', image: '/images/white-russia.jpg' }
           ]
         },
         {
-          id: 'detox-smoothies',
-          name: 'Detox Smoothies',
+          id: 'mocktails',
+          name: 'Mocktails',
           items: [
-            {
-              id: 36,
-              name: 'Green detox',
-              description: 'Spinach, apple, cucumber, and lime',
-              price: '₦4,000.00',
-              image: '/images/green-smoothie.jpg'
-            }
+            { id: 'mt1', name: 'Non-Alcoholic Chapman', description: 'Classic Nigerian mocktail', price: '₦5,000', image: '/images/chapman.jpg' },
+            { id: 'mt2', name: 'Virgin Pina Colada', description: 'Non-alcoholic tropical drink', price: '₦5,000', image: '/images/virgin-pina.jpg' },
+            { id: 'mt3', name: 'Virgin Mojito', description: 'Refreshing mint mocktail', price: '₦5,000', image: '/images/virgin-mojito.jpg' }
+          ]
+        },
+        {
+          id: 'fresh-smoothies',
+          name: 'Fresh Smoothies',
+          items: [
+            { id: 'fs1', name: 'Tropical Splash Smoothie', description: 'Mixed tropical fruits', price: '₦5,000', image: '/images/tropical-smoothie.jpg' },
+            { id: 'fs2', name: 'Strawberry/Banana', description: 'Classic fruit smoothie', price: '₦5,000', image: '/images/strawberry-banana.jpg' }
+          ]
+        },
+        {
+          id: 'juices',
+          name: 'Juices',
+          items: [
+            { id: 'j1', name: 'Pineapple Juice', description: 'Fresh pineapple juice', price: '₦5,000', image: '/images/pineapple-juice.jpg' },
+            { id: 'j2', name: 'Watermelon Juice', description: 'Fresh watermelon juice', price: '₦5,000', image: '/images/watermelon-juice.jpg' },
+            { id: 'j3', name: 'Fresh Lemonade', description: 'Freshly squeezed lemonade', price: '₦5,000', image: '/images/lemonade.jpg' },
+            { id: 'j4', name: 'Vanilla Milk Shake', description: 'Creamy vanilla shake', price: '₦8,000', image: '/images/vanilla-shake.jpg' }
+          ]
+        },
+        {
+          id: 'shots',
+          name: 'Shots',
+          items: [
+            { id: 'sh1', name: 'Whiskey', description: 'Whiskey shot', price: '₦4,000', image: '/images/whiskey-shot.jpg' },
+            { id: 'sh2', name: 'Vodka', description: 'Vodka shot', price: '₦3,000', image: '/images/vodka-shot.jpg' },
+            { id: 'sh3', name: 'Tequila', description: 'Tequila shot', price: '₦4,000', image: '/images/tequila-shot.jpg' },
+            { id: 'sh4', name: 'Bacardi', description: 'Bacardi rum shot', price: '₦3,000', image: '/images/bacardi-shot.jpg' },
+            { id: 'sh5', name: 'Gin', description: 'Gin shot', price: '₦3,000', image: '/images/gin-shot.jpg' }
           ]
         }
       ]
