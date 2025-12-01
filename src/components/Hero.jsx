@@ -3,10 +3,26 @@ import './Hero.css';
 
 const Hero = ({ searchQuery, onSearchChange }) => {
   const [loaded, setLoaded] = useState(false);
+  const [localSearch, setLocalSearch] = useState(searchQuery);
 
   useEffect(() => {
     setLoaded(true);
   }, []);
+
+  const handleSearch = () => {
+    onSearchChange(localSearch);
+    // Scroll to menu content
+    const menuContent = document.getElementById('menu-content');
+    if (menuContent) {
+      menuContent.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
+  };
 
   return (
     <div className="hero">
@@ -18,11 +34,13 @@ const Hero = ({ searchQuery, onSearchChange }) => {
       <div className={`hero-content ${loaded ? 'animate-in' : ''}`}>
         
         <div className="logo-container">
-           <img 
-            src="/images/logo1.png" 
-            alt="Presken Hotels & Resorts" 
-            className="hero-logo"
-          />
+          <a href="https://preskenhotels.com/" target="_blank" rel="noopener noreferrer">
+            <img 
+              src="/images/logo1.png" 
+              alt="Presken Hotels & Resorts" 
+              className="hero-logo"
+            />
+          </a>
         </div>
 
         <h1 className="hero-title">
@@ -52,9 +70,13 @@ const Hero = ({ searchQuery, onSearchChange }) => {
               type="text"
               className="search-input-luxury"
               placeholder="Search our exquisite menu..."
-              value={searchQuery}
-              onChange={(e) => onSearchChange(e.target.value)}
+              value={localSearch}
+              onChange={(e) => setLocalSearch(e.target.value)}
+              onKeyDown={handleKeyDown}
             />
+            <button className="search-button-luxury" onClick={handleSearch}>
+              Search
+            </button>
           </div>
         </div>
       </div>

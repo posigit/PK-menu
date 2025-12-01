@@ -153,6 +153,33 @@
   outline: none;
 }
 
+.search-button-luxury {
+  background: var(--color-copper-primary);
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  margin-right: 4px;
+  box-shadow: 0 4px 12px rgba(161, 88, 44, 0.3);
+}
+
+.search-button-luxury:hover {
+  background: var(--color-brown-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(50, 30, 20, 0.4);
+}
+
+.search-button-luxury:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 8px rgba(50, 30, 20, 0.4);
+}
+
 /* Scroll Indicator */
 .scroll-indicator {
   position: absolute;

@@ -39,7 +39,7 @@ function App() {
         onCategoryChange={setActiveCategory}
       />
       
-      <main className="main-content">
+      <main className="main-content" id="menu-content">
         <div className="container">
           {isSearching ? (
             // Search results view
