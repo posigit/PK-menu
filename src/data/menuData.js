@@ -9,19 +9,19 @@ export const menuData = {
           id: 'standard-breakfast',
           name: 'Standard Breakfast',
           items: [
-            { id: 'sb1', name: 'Omelet Combo', description: 'Omelet, Sausage, Baked Beans, Bread', price: '₦4,000', image: '/images/breakfast.jpg' },
-            { id: 'sb2', name: 'Boiled Yam & Egg Sauce', description: 'Fresh boiled yam with savory egg sauce', price: '₦4,000', image: '/images/yam-egg.jpg' },
-            { id: 'sb3', name: 'Akara/Moi-Moi & Pap', description: 'Bean cakes or pudding with corn pap', price: '₦4,000', image: '/images/akara-pap.jpg' },
-            { id: 'sb4', name: 'Custard or Cornflakes', description: 'Creamy custard or crunchy cornflakes', price: '₦4,000', image: '/images/cereal.jpg' },
-            { id: 'sb5', name: 'Plantain & Egg Sauce', description: 'Fried plantain with egg sauce', price: '₦4,000', image: '/images/plantain-egg.jpg' }
+            { id: 'sb1', name: 'Omelet Combo', description: 'Omelet, Sausage, Baked Beans, Bread', price: '₦4,000', image: '/images/omelet-combo.pnga' },
+            { id: 'sb2', name: 'Boiled Yam & Egg Sauce', description: 'Fresh boiled yam with savory egg sauce', price: '₦4,000', image: '/images/yam-egg-sauce.pnga' },
+            { id: 'sb3', name: 'Akara/Moi-Moi & Pap', description: 'Bean cakes or pudding with corn pap', price: '₦4,000', image: '/images/akara-pap.pnga' },
+            { id: 'sb4', name: 'Custard or Cornflakes', description: 'Creamy custard or crunchy cornflakes', price: '₦4,000', image: '/images/custard-cornflakes.pnga' },
+            { id: 'sb5', name: 'Plantain & Egg Sauce', description: 'Fried plantain with egg sauce', price: '₦4,000', image: '/images/plantain-egg-sauce.pnga' }
           ]
         },
         {
           id: 'english-breakfast',
           name: 'English Breakfast',
           items: [
-            { id: 'eb1', name: 'Cereal & Toast Combo', description: 'Toast/Fresh Bread with choice of Cereal  (Custard, Oat, or Cornflakes) served with choice of Egg (Scrambled/Sunny Side Up/Boiled Egg)', price: '₦7,000', image: '/images/cereal.jpg' },
-            { id: 'eb2', name: 'Savory English Breakfast Combo', description: '(Tomato/Plain/Spanish/ Sardine) with Sausage & Baked Beans', price: '₦7,000', image: '/images/english-breakfast.jpg' }
+            { id: 'eb1', name: 'Cereal & Toast Combo', description: 'Toast/Fresh Bread with choice of Cereal  (Custard, Oat, or Cornflakes) served with choice of Egg (Scrambled/Sunny Side Up/Boiled Egga)', price: '₦7,000', image: '/images/cereal-toast-combo.pnga ' },
+            { id: 'eb2', name: 'Savory English Breakfast Combo', description: '(Tomato/Plain/Spanish/ Sardine) with Sausage & Baked Beans', price: '₦7,000', image: '/images/savory-english-breakfast.pnga' }
           ]
         },
         {
@@ -68,7 +68,7 @@ export const menuData = {
           name: 'Main Dish (Rice)',
           items: [
             { id: 'md1', name: 'Jollof /Fried/ White Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/jollof-rice.jpg' },
-            { id: 'md2', name: 'Brown / Ofada / Coconut Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/ofada.jpg' }
+          
           ]
         },
         {

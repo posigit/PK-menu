@@ -103,10 +103,23 @@ function App() {
       </main>
       
       <footer className="footer-luxury">
+        <div className="christmas-lights">
+          <div className="light"></div>
+          <div className="light"></div>
+          <div className="light"></div>
+          <div className="light"></div>
+          <div className="light"></div>
+          <div className="light"></div>
+          <div className="light"></div>
+          <div className="light"></div>
+        </div>
         <div className="container">
           <div className="footer-content">
             <p>&copy; 2025 <span className="footer-brand">Presken Hotels & Resorts</span></p>
             <p style={{ marginTop: '8px', opacity: 0.6 }}>Redefining Hospitality...</p>
+            <p style={{ marginTop: '12px', fontSize: '0.9rem', color: 'var(--color-gold-primary)' }}>
+              🎄 Wishing you joy this holiday season! 🎅
+            </p>
           </div>
         </div>
       </footer>

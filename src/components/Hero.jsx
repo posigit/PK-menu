@@ -52,6 +52,10 @@ const Hero = ({ searchQuery, onSearchChange }) => {
           Experience the finest dining and nightlife at Presken.
         </p>
 
+        <div className="festive-greeting">
+          ✨ Season's Greetings ✨
+        </div>
+
         <div className="search-wrapper-luxury">
           <div className="search-glass">
             <svg 
@@ -79,6 +83,18 @@ const Hero = ({ searchQuery, onSearchChange }) => {
             </button>
           </div>
         </div>
+      </div>
+      
+      {/* Christmas Snowflakes */}
+      <div className="snowflakes" aria-hidden="true">
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
       </div>
       
       <div className="scroll-indicator">

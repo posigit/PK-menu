@@ -14,13 +14,22 @@ const CategoryTabs = ({ categories, activeCategory, onCategoryChange }) => {
     }
   }, [activeCategory]);
 
+  const handleCategoryClick = (categoryId) => {
+    onCategoryChange(categoryId);
+    // Scroll to menu content
+    const menuContent = document.getElementById('menu-content');
+    if (menuContent) {
+      menuContent.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="category-tabs-wrapper-luxury">
       <div className="category-tabs-container">
         <div className="category-tabs-luxury" ref={tabsRef}>
           <button
             className={`category-tab-luxury ${!activeCategory || activeCategory === 'all' ? 'active' : ''}`}
-            onClick={() => onCategoryChange('all')}
+            onClick={() => handleCategoryClick('all')}
           >
             <span className="tab-text">All Menu</span>
             {(!activeCategory || activeCategory === 'all') && <div className="tab-glow" />}
@@ -30,7 +39,7 @@ const CategoryTabs = ({ categories, activeCategory, onCategoryChange }) => {
             <button
               key={category.id}
               className={`category-tab-luxury ${activeCategory === category.id ? 'active' : ''}`}
-              onClick={() => onCategoryChange(category.id)}
+              onClick={() => handleCategoryClick(category.id)}
             >
               <span className="tab-text">{category.name}</span>
               {activeCategory === category.id && <div className="tab-glow" />}
