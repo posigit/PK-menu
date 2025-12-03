@@ -9,35 +9,35 @@ export const menuData = {
           id: 'standard-breakfast',
           name: 'Standard Breakfast',
           items: [
-            { id: 'sb1', name: 'Omelet Combo', description: 'Omelet, Sausage, Baked Beans, Bread', price: '₦4,000', image: '/images/omelet-combo.pnga' },
-            { id: 'sb2', name: 'Boiled Yam & Egg Sauce', description: 'Fresh boiled yam with savory egg sauce', price: '₦4,000', image: '/images/yam-egg-sauce.pnga' },
-            { id: 'sb3', name: 'Akara/Moi-Moi & Pap', description: 'Bean cakes or pudding with corn pap', price: '₦4,000', image: '/images/akara-pap.pnga' },
-            { id: 'sb4', name: 'Custard or Cornflakes', description: 'Creamy custard or crunchy cornflakes', price: '₦4,000', image: '/images/custard-cornflakes.pnga' },
-            { id: 'sb5', name: 'Plantain & Egg Sauce', description: 'Fried plantain with egg sauce', price: '₦4,000', image: '/images/plantain-egg-sauce.pnga' }
+            { id: 'sb1', name: 'Omelet Combo', description: 'Omelet, Sausage, Baked Beans, Bread', price: '₦4,000', image: '/images/omelet-combo.png' },
+            { id: 'sb2', name: 'Boiled Yam & Egg Sauce', description: 'Fresh boiled yam with savory egg sauce', price: '₦4,000', image: '/images/yam-egg-sauce.png' },
+            { id: 'sb3', name: 'Akara/Moi-Moi & Pap', description: 'Bean cakes or pudding with corn pap', price: '₦4,000', image: '/images/akara-pap.png' },
+            { id: 'sb4', name: 'Custard or Cornflakes', description: 'Creamy custard or crunchy cornflakes', price: '₦4,000', image: '/images/custard-cornflakes.png' },
+            { id: 'sb5', name: 'Plantain & Egg Sauce', description: 'Fried plantain with egg sauce', price: '₦4,000', image: '/images/plantain-egg-sauce.png' }
           ]
         },
         {
           id: 'english-breakfast',
           name: 'English Breakfast',
           items: [
-            { id: 'eb1', name: 'Cereal & Toast Combo', description: 'Toast/Fresh Bread with choice of Cereal  (Custard, Oat, or Cornflakes) served with choice of Egg (Scrambled/Sunny Side Up/Boiled Egga)', price: '₦7,000', image: '/images/cereal-toast-combo.pnga ' },
-            { id: 'eb2', name: 'Savory English Breakfast Combo', description: '(Tomato/Plain/Spanish/ Sardine) with Sausage & Baked Beans', price: '₦7,000', image: '/images/savory-english-breakfast.pnga' }
+            { id: 'eb1', name: 'Cereal & Toast Combo', description: 'Toast/Fresh Bread with choice of Cereal  (Custard, Oat, or Cornflakes) served with choice of Egg (Scrambled/Sunny Side Up/Boiled Egga)', price: '₦7,000', image: '/images/cereal-toast-combo.png ' },
+            { id: 'eb2', name: 'Savory English Breakfast Combo', description: '(Tomato/Plain/Spanish/ Sardine) with Sausage & Baked Beans', price: '₦7,000', image: '/images/savory-english-breakfast.png' }
           ]
         },
         {
           id: 'appetizers',
           name: 'Appetizers',
           items: [
-            { id: 'ap1', name: 'Pepper Soup', description: 'Chicken / Cow Tail / Cow Leg / Assorted Goat Meat / Turkey', price: '₦6,500', image: '/images/peppersoup.jpg' },
-            { id: 'ap2', name: 'Croaker Fish BBQ', description: 'Served with Chips', price: '₦15,000', image: '/images/fish-bbq.jpg' },
-            { id: 'ap3', name: 'Croaker Fish Pepper Soup', description: 'Served with Yam or Rice', price: '₦14,000', image: '/images/peppersoup.jpg' },
-            { id: 'ap4', name: 'Giant BBQ Croaker Fish', description: 'Whole grilled croaker', price: '₦25,000', image: '/images/fish-bbq.jpg' },
-            { id: 'ap5', name: 'Cat-Fish Pepper Soup', description: 'Served with Yam or Rice', price: '₦9,000', image: '/images/peppersoup.jpg' },
-            { id: 'ap6', name: 'Nkwobi', description: 'Spicy cow foot delicacy', price: '₦6,500', image: '/images/nkwobi.jpg' },
-            { id: 'ap7', name: 'BBQ Cat-Fish', description: 'Grilled catfish', price: '₦10,000', image: '/images/fish-bbq.jpg' },
-            { id: 'ap8', name: 'Isi-Ewu', description: 'Spicy goat head', price: '₦10,000', image: '/images/isiewu.jpg' },
-            { id: 'ap9', name: 'Pepper Snail', description: 'Spicy snail', price: '₦11,000', image: '/images/snail.jpg' },
-            { id: 'ap10', name: 'Pepper Gizard', description: 'Spicy gizzard', price: '₦7,500', image: '/images/gizzard.jpg' }
+            { id: 'ap1', name: 'Pepper Soup', description: 'Chicken / Cow Tail / Cow Leg / Assorted Goat Meat / Turkey', price: '₦6,500', image: '/images/pepper-soup.png' },
+            { id: 'ap2', name: 'Croaker Fish BBQ', description: 'Served with Chips', price: '₦15,000', image: '/images/croaker-bbq-chips.png' },
+            { id: 'ap3', name: 'Croaker Fish Pepper Soup', description: 'Served with Yam or Rice', price: '₦14,000', image: '/images/croaker-pepper-soup.png' },
+            { id: 'ap4', name: 'Giant BBQ Croaker Fish', description: 'Whole grilled croaker', price: '₦25,000', image: '/images/giant-bbq-croaker.png' },
+            { id: 'ap5', name: 'Cat-Fish Pepper Soup', description: 'Served with Yam or Rice', price: '₦9,000', image: '/images/catfish-pepper-soup.png' },
+            { id: 'ap6', name: 'Nkwobi', description: 'Spicy cow foot delicacy', price: '₦6,500', image: '/images/nkwobi.png' },
+            { id: 'ap7', name: 'BBQ Cat-Fish', description: 'Grilled catfish', price: '₦10,000', image: '/images/bbq-catfish.png' },
+            { id: 'ap8', name: 'Isi-Ewu', description: 'Spicy goat head', price: '₦10,000', image: '/images/isi-ewu.png' },
+            { id: 'ap9', name: 'Pepper Snail', description: 'Spicy snail', price: '₦11,000', image: '/images/pepper-snail.png' },
+            { id: 'ap10', name: 'Pepper Gizard', description: 'Spicy gizzard', price: '₦7,500', image: '/images/pepper-gizzard.png' }
           ]
         },
         {
@@ -64,25 +64,37 @@ export const menuData = {
           ]
         },
         {
-          id: 'main-dish',
-          name: 'Main Dish (Rice)',
+          id: 'rice',
+          name: 'Rice',
           items: [
-            { id: 'md1', name: 'Jollof /Fried/ White Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/jollof-rice.jpg' },
-          
+            { id: 'r1', name: 'Jollof Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/jollof-rice.jpg' },
+            { id: 'r2', name: 'Fried Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/fried-rice.jpg' },
+            { id: 'r3', name: 'White Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/white-rice.jpg' }
           ]
         },
         {
           id: 'swallow',
           name: 'Swallow',
           items: [
-            { id: 'sw1', name: 'Swallow with Soup', description: 'Poundo Yam/Semovita/Pounded Yam/Wheat/Eba/Amala served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' }
+            { id: 'sw1', name: 'Poundo Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
+            { id: 'sw2', name: 'Semovita', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
+            { id: 'sw3', name: 'Pounded Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
+            { id: 'sw4', name: 'Wheat', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
+            { id: 'sw5', name: 'Eba', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
+            { id: 'sw6', name: 'Amala', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' }
           ]
         },
         {
           id: 'special-soup',
           name: 'Special Soup',
           items: [
-            { id: 'ss1', name: 'Special Soup with Swallow', description: 'Bitter Leaf, Oha, Groudnut Soup, White Soup, Banga Soup, Afang & Black Soup with any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' }
+            { id: 'ss1', name: 'Bitter Leaf', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss2', name: 'Oha', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss3', name: 'Groundnut Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss4', name: 'White Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss5', name: 'Banga Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss6', name: 'Afang', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss7', name: 'Black Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' }
           ]
         },
         {
