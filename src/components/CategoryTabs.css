@@ -25,6 +25,22 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   padding: 4px;
+  animation: hintScroll 3s ease-in-out 2s 3;
+}
+
+@keyframes hintScroll {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(8px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-8px);
+  }
 }
 
 .category-tabs-luxury::-webkit-scrollbar {
