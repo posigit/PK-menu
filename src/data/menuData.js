@@ -115,7 +115,6 @@ export const menuData = {
         {
           id: 'special-meals',
           name: 'Presken Food Menu Special Meals',
-          notice: 'Pounded Yam is Readily Available',
           items: [
             { id: 'sm1', name: 'Sea Food Okro', description: 'Rich seafood okra soup', price: '₦20,000', image: '/images/seafood-okro.jpg' },
             { id: 'sm2', name: 'Fisherman Soup', description: 'Traditional fisherman soup', price: '₦20,000', image: '/images/fisherman-soup.jpg' },
