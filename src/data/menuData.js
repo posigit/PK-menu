@@ -78,7 +78,6 @@ export const menuData = {
           items: [
             { id: 'sw1', name: 'Poundo Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
             { id: 'sw2', name: 'Semovita', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
-            { id: 'sw3', name: 'Pounded Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
             { id: 'sw4', name: 'Wheat', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
             { id: 'sw5', name: 'Eba', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
             { id: 'sw6', name: 'Amala', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' }
@@ -143,7 +142,8 @@ export const menuData = {
             { id: 'sm23', name: 'Live Chicken Pepper Soup', description: 'Fresh chicken pepper soup', price: '₦30,000', image: '/images/chicken-peppersoup.jpg' },
             { id: 'sm24', name: 'Live Chicken BBQ', description: 'Fresh grilled chicken', price: '₦35,000', image: '/images/live-chicken.jpg' },
             { id: 'sm25', name: 'Food Platter', description: 'Assorted food platter', price: '₦25,000', image: '/images/food-platter.jpg' },
-            { id: 'sm26', name: 'Grilled Dragon (Full Goat)', description: 'Whole grilled goat', price: '₦250,000', image: '/images/grilled-goat.jpg' }
+            { id: 'sm26', name: 'Grilled Dragon (Full Goat)', description: 'Whole grilled goat', price: '₦250,000', image: '/images/grilled-goat.jpg' },
+            { id: 'sm27', name: 'Pounded Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦10,000', image: '/images/swallow.jpg' },
           ]
         }
       ]

@@ -25,7 +25,10 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   padding: 4px;
-  animation: hintScroll 3s ease-in-out 2s 3;
+}
+
+.category-tabs-luxury.animate-hint {
+  animation: hintScroll 3s ease-in-out 0.5s 3;
 }
 
 @keyframes hintScroll {
@@ -84,16 +87,38 @@
   display: none;
 }
 
-/* Fade effect on the right */
+/* Fade effect on the right with scroll indicator */
 .tabs-fade-right {
   position: absolute;
   right: 0;
   top: 0;
   bottom: 0;
-  width: 40px;
+  width: 60px;
   background: linear-gradient(to right, transparent, rgba(253, 251, 247, 0.95));
   pointer-events: none;
   z-index: 101;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-indicator-chevron {
+  color: var(--color-copper-primary);
+  animation: pulseChevron 2s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes pulseChevron {
+  0%, 100% {
+    opacity: 0.6;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(4px);
+  }
 }
 
 @media (max-width: 768px) {
