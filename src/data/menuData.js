@@ -76,16 +76,16 @@ export const menuData = {
           items: [
             { id: 'sw1', name: 'Poundo Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/poundo-yam.png' },
             { id: 'sw2', name: 'Semovita', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/semovita.png' },
-            { id: 'sw4', name: 'Wheat', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
-            { id: 'sw5', name: 'Eba', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
-            { id: 'sw6', name: 'Amala', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' }
+            { id: 'sw4', name: 'Wheat', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/wheat.png' },
+            { id: 'sw5', name: 'Eba', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/eba.png' },
+            { id: 'sw6', name: 'Amala', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/amala.png' }
           ]
         },
         {
           id: 'extra',
           name: 'Extra',
           items: [
-            { id: 'ex1', name: 'Swallow', description: 'Extra portion', price: '₦2,500', image: '/images/swallow.jpg' },
+            { id: 'ex1', name: 'Swallow', description: 'Extra portion', price: '₦2,500', image: '/images/extra-swallow.png' },
             { id: 'ex2', name: 'Rice', description: 'Extra portion', price: '₦2,500', image: '/images/rice.jpg' },
             { id: 'ex3', name: 'Plantain', description: 'Extra portion', price: '₦2,500', image: '/images/plantain.jpg' },
             { id: 'ex4', name: 'Protein', description: 'Extra portion', price: '₦6,000', image: '/images/chicken.jpg' }
@@ -101,7 +101,7 @@ export const menuData = {
           id: 'special-meals',
           name: 'Presken Food Menu Special Meals',
           items: [
-            { id: 'sm27', name: 'Pounded Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦10,000', image: '/images/swallow.jpg' },
+            { id: 'sm27', name: 'Pounded Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦10,000', image: '/images/pounded-yam-special.png' },
             { id: 'sm28', name: 'Special Fried Rice', description: 'With Sea Foods • Free Water', price: '₦20,000', image: '/images/fried-rice-special.png' },
             { id: 'sm29', name: 'Presken Special Noodles', description: 'House special noodles • Free Water', price: '₦6,500', image: '/images/noodles-special.png' },
             { id: 'sm1', name: 'Sea Food Okro', description: 'Rich seafood okra soup', price: '₦20,000', image: '/images/seafood-okro.jpg' },
