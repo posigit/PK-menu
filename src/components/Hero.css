@@ -1,7 +1,7 @@
 .hero {
   position: relative;
-  height: 85vh; /* Increased height */
-  min-height: 700px; /* Increased min-height */
+  height: 85vh;
+  min-height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -186,7 +186,7 @@
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
-  opacity: 1; /* Increased opacity */
+  opacity: 1;
   z-index: 20;
   display: flex;
   flex-direction: column;
@@ -201,16 +201,16 @@
 }
 
 .mouse {
-  width: 30px; /* Slightly larger */
+  width: 30px;
   height: 48px;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 24px;
   position: relative;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Added shadow for visibility */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .wheel {
-  width: 4px; /* Thicker wheel */
+  width: 4px;
   height: 8px;
   background: var(--color-copper-primary);
   position: absolute;

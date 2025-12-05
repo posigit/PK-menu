@@ -20,7 +20,7 @@ export const menuData = {
           id: 'english-breakfast',
           name: 'English Breakfast',
           items: [
-            { id: 'eb1', name: 'Cereal & Toast Combo', description: 'Toast/Fresh Bread with choice of Cereal  (Custard, Oat, or Cornflakes) served with choice of Egg (Scrambled/Sunny Side Up/Boiled Egga)', price: '₦7,000', image: '/images/cereal-toast-combo.png ' },
+            { id: 'eb1', name: 'Cereal & Toast Combo', description: 'Toast/Fresh Bread with choice of Cereal  (Custard, Oat, or Cornflakes) served with choice of Egg (Scrambled/Sunny Side Up/Boiled Egg)', price: '₦7,000', image: '/images/cereal-toast-combo.png ' },
             { id: 'eb2', name: 'Savory English Breakfast Combo', description: '(Tomato/Plain/Spanish/ Sardine) with Sausage & Baked Beans', price: '₦7,000', image: '/images/savory-english-breakfast.png' }
           ]
         },
@@ -44,56 +44,41 @@ export const menuData = {
           id: 'lunch-dinner',
           name: 'Lunch & Dinner',
           items: [
-            { id: 'ld1', name: 'Yamarita', description: 'With any choice of protein • Free Water', price: '₦9,000', image: '/images/yamarita.jpg' },
-            { id: 'ld2', name: 'Special Fried Rice', description: 'With Sea Foods • Free Water', price: '₦20,000', image: '/images/fried-rice.jpg' },
-            { id: 'ld3', name: 'Chicken & Chips', description: 'In Creamy Sauce • Free Water', price: '₦8,500', image: '/images/chicken-chips.jpg' },
-            { id: 'ld4', name: 'Presken Special Noodles', description: 'House special noodles • Free Water', price: '₦6,500', image: '/images/noodles.jpg' },
-            { id: 'ld5', name: 'Noodles with Protein', description: 'Served with Turkey/Chicken/Other Protein • Free Water', price: '₦8,500', image: '/images/noodles.jpg' },
-            { id: 'ld6', name: 'Plantain with Protein', description: 'With Goat Meat/Chicken/Beef • Free Water', price: '₦8,500', image: '/images/plantain.jpg' }
+            { id: 'ld1', name: 'Yamarita', description: 'With any choice of protein • Free Water', price: '₦9,000', image: '/images/yamarita.png' },
+            { id: 'ld3', name: 'Chicken & Chips', description: 'In Creamy Sauce • Free Water', price: '₦8,500', image: '/images/chicken-chips.png' },
+            { id: 'ld5', name: 'Noodles with Protein', description: 'Served with Turkey/Chicken/Other Protein • Free Water', price: '₦8,500', image: '/images/noodles-protein.png' },
+            { id: 'ld6', name: 'Plantain with Protein', description: 'With Goat Meat/Chicken/Beef • Free Water', price: '₦8,500', image: '/images/plantain-protein.png' }
           ]
         },
         {
           id: 'pasta',
           name: 'Pasta',
           items: [
-            { id: 'p1', name: 'Spaghetti with Protein', description: 'Choice of Spaghetti with choice of protein • Free Water', price: '₦8,500', image: '/images/pasta.jpg' },
-            { id: 'p2', name: 'Spaghetti Bolognese', description: 'Classic meat sauce • Free Water', price: '₦10,000', image: '/images/pasta.jpg' },
-            { id: 'p3', name: 'Vegetable Pasta', description: 'Mixed vegetables • Free Water', price: '₦8,500', image: '/images/pasta.jpg' },
-            { id: 'p4', name: 'Stir Fried Spaghetti', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/pasta.jpg' },
-            { id: 'p5', name: 'Noodles & Egg', description: 'Simple noodles with egg • Free Water', price: '₦4,500', image: '/images/noodles.jpg' }
+            { id: 'p1', name: 'Spaghetti with Protein', description: 'Choice of Spaghetti with choice of protein • Free Water', price: '₦8,500', image: '/images/spaghetti-protein.png' },
+            { id: 'p2', name: 'Spaghetti Bolognese', description: 'Classic meat sauce • Free Water', price: '₦10,000', image: '/images/spaghetti-bolognese.png' },
+            { id: 'p3', name: 'Vegetable Pasta', description: 'Mixed vegetables • Free Water', price: '₦8,500', image: '/images/vegetable-pasta.png' },
+            { id: 'p4', name: 'Stir Fried Spaghetti', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/stir-fried-spaghetti.png' },
+            { id: 'p5', name: 'Noodles & Egg', description: 'Simple noodles with egg • Free Water', price: '₦4,500', image: '/images/noodles-egg.png' }
           ]
         },
         {
           id: 'rice',
           name: 'Rice',
           items: [
-            { id: 'r1', name: 'Jollof Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/jollof-rice.jpg' },
-            { id: 'r2', name: 'Fried Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/fried-rice.jpg' },
-            { id: 'r3', name: 'White Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/white-rice.jpg' }
+            { id: 'r1', name: 'Jollof Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/jollof-rice.png' },
+            { id: 'r2', name: 'Fried Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/fried-rice.png' },
+            { id: 'r3', name: 'White Rice', description: 'With any choice of Protein • Free Water', price: '₦8,500', image: '/images/white-rice.png' }
           ]
         },
         {
           id: 'swallow',
           name: 'Swallow',
           items: [
-            { id: 'sw1', name: 'Poundo Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
-            { id: 'sw2', name: 'Semovita', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
+            { id: 'sw1', name: 'Poundo Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/poundo-yam.png' },
+            { id: 'sw2', name: 'Semovita', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/semovita.png' },
             { id: 'sw4', name: 'Wheat', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
             { id: 'sw5', name: 'Eba', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' },
             { id: 'sw6', name: 'Amala', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦8,500', image: '/images/swallow.jpg' }
-          ]
-        },
-        {
-          id: 'special-soup',
-          name: 'Special Soup',
-          items: [
-            { id: 'ss1', name: 'Bitter Leaf', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss2', name: 'Oha', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss3', name: 'Groundnut Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss4', name: 'White Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss5', name: 'Banga Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss6', name: 'Afang', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss7', name: 'Black Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' }
           ]
         },
         {
@@ -116,6 +101,9 @@ export const menuData = {
           id: 'special-meals',
           name: 'Presken Food Menu Special Meals',
           items: [
+            { id: 'sm27', name: 'Pounded Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦10,000', image: '/images/swallow.jpg' },
+            { id: 'sm28', name: 'Special Fried Rice', description: 'With Sea Foods • Free Water', price: '₦20,000', image: '/images/fried-rice-special.png' },
+            { id: 'sm29', name: 'Presken Special Noodles', description: 'House special noodles • Free Water', price: '₦6,500', image: '/images/noodles-special.png' },
             { id: 'sm1', name: 'Sea Food Okro', description: 'Rich seafood okra soup', price: '₦20,000', image: '/images/seafood-okro.jpg' },
             { id: 'sm2', name: 'Fisherman Soup', description: 'Traditional fisherman soup', price: '₦20,000', image: '/images/fisherman-soup.jpg' },
             { id: 'sm3', name: 'Brown Rice', description: 'Healthy brown rice', price: '₦10,000', image: '/images/brown-rice.jpg' },
@@ -141,8 +129,20 @@ export const menuData = {
             { id: 'sm23', name: 'Live Chicken Pepper Soup', description: 'Fresh chicken pepper soup', price: '₦30,000', image: '/images/chicken-peppersoup.jpg' },
             { id: 'sm24', name: 'Live Chicken BBQ', description: 'Fresh grilled chicken', price: '₦35,000', image: '/images/live-chicken.jpg' },
             { id: 'sm25', name: 'Food Platter', description: 'Assorted food platter', price: '₦25,000', image: '/images/food-platter.jpg' },
-            { id: 'sm26', name: 'Grilled Dragon (Full Goat)', description: 'Whole grilled goat', price: '₦250,000', image: '/images/grilled-goat.jpg' },
-            { id: 'sm27', name: 'Pounded Yam', description: 'Served with choice of Soup (Edikan-Ikong/Ogbono/Okro/Efo-Riro) with any choice of Protein • Free Water', price: '₦10,000', image: '/images/swallow.jpg' },
+            { id: 'sm26', name: 'Grilled Dragon (Full Goat)', description: 'Whole grilled goat', price: '₦250,000', image: '/images/grilled-goat.jpg' }
+          ]
+        },
+        {
+          id: 'special-soup',
+          name: 'Special Soup',
+          items: [
+            { id: 'ss1', name: 'Bitter Leaf', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss2', name: 'Oha', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss3', name: 'Groundnut Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss4', name: 'White Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss5', name: 'Banga Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss6', name: 'Afang', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
+            { id: 'ss7', name: 'Black Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' }
           ]
         }
       ]

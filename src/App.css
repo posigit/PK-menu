@@ -152,11 +152,11 @@
 
 @media (max-width: 768px) {
   .main-content {
-    padding: var(--spacing-xl) 0; /* Reduce top padding on mobile */
+    padding: var(--spacing-xl) 0;
   }
 
   .category-section {
-    margin-bottom: var(--spacing-2xl); /* Reduce section spacing on mobile */
+    margin-bottom: var(--spacing-2xl);
   }
 
   .category-name-luxury {

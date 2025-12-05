@@ -1,6 +1,4 @@
 :root {
-  /* --- GENIUS DESIGN SYSTEM: PRESKEN COFFEE & COPPER --- */
-
   /* Core Palette */
   --color-brown-dark: #321e14;     /* Presken Coffee - Footer/Hero */
   --color-brown-light: #4a3b32;    /* Lighter Brown */
@@ -12,7 +10,7 @@
   --color-gold-dim: rgba(212, 175, 55, 0.15);
 
   /* Backgrounds */
-  --color-bg-body: #fdfbf7;        /* Warm Cream - Non-generic background */
+  --color-bg-body: #fdfbf7;        /* Warm Cream */
   --color-bg-card: #ffffff;        /* Pure White Cards */
   --color-bg-surface: #f5f0eb;     /* Warm Beige Surface */
 
@@ -68,7 +66,6 @@ body {
   color: var(--color-text-primary);
   line-height: 1.6;
   overflow-x: hidden;
-  /* Subtle grain texture for non-generic feel */
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
 }
 
