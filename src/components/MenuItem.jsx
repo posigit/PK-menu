@@ -3,22 +3,38 @@ import './MenuItem.css';
 
 const MenuItem = ({ item }) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
+  const [imageLoaded, setImageLoaded] = React.useState(false);
+  const [imageError, setImageError] = React.useState(false);
 
   return (
     <div 
       className={`menu-item-luxury ${isExpanded ? 'expanded' : ''}`}
       onClick={() => setIsExpanded(!isExpanded)}
     >
-      <div className="menu-item-image-container">
-        <img 
-          src={item.image} 
-          alt={item.name}
-          className="menu-item-img"
-          onError={(e) => {
-            e.target.style.display = 'none';
-            e.target.parentElement.classList.add('no-image');
-          }}
-        />
+      <div className={`menu-item-image-container ${imageError ? 'no-image' : ''}`}>
+        {!imageError && (
+          <>
+            {/* Blur placeholder - shows while image is loading */}
+            <div 
+              className={`image-placeholder ${imageLoaded ? 'loaded' : ''}`}
+              style={{
+                backgroundImage: `url(${item.image})`,
+              }}
+            />
+            
+            {/* Actual image */}
+            <img 
+              src={item.image} 
+              alt={item.name}
+              className={`menu-item-img ${imageLoaded ? 'loaded' : ''}`}
+              loading="lazy"
+              onLoad={() => setImageLoaded(true)}
+              onError={(e) => {
+                setImageError(true);
+              }}
+            />
+          </>
+        )}
         <div className="menu-item-overlay"></div>
       </div>
       
