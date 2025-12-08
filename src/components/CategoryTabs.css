@@ -121,6 +121,13 @@
   }
 }
 
+/* Hide scroll arrow on desktop */
+@media (min-width: 769px) {
+  .tabs-fade-right {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .category-tabs-wrapper-luxury {
     padding: var(--spacing-sm) 0;
