@@ -136,13 +136,13 @@ export const menuData = {
           id: 'special-soup',
           name: 'Special Soup',
           items: [
-            { id: 'ss1', name: 'Bitter Leaf', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss2', name: 'Oha', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss3', name: 'Groundnut Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss4', name: 'White Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss5', name: 'Banga Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss6', name: 'Afang', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' },
-            { id: 'ss7', name: 'Black Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/soup.jpg' }
+            { id: 'ss1', name: 'Bitter Leaf', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/bitterleaf-soup.jpeg' },
+            { id: 'ss2', name: 'Oha', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/oha-soup.jpeg' },
+            { id: 'ss3', name: 'Groundnut Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/groundnut-soup.jpeg' },
+            { id: 'ss4', name: 'White Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/white-soup.png' },
+            { id: 'ss5', name: 'Banga Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/banga-soup.jpeg' },
+            { id: 'ss6', name: 'Afang', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/afang-soup.jpeg' },
+            { id: 'ss7', name: 'Black Soup', description: 'With any choice of Swallow • Free Water', price: '₦10,000', image: '/images/black-soup.png' }
           ]
         }
       ]
