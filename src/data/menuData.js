@@ -183,7 +183,7 @@ export const menuData = {
           name: 'Beer',
           items: [
             { id: 'b1', name: 'Big Stout', description: 'Guinness Extra Stout', price: '₦2,500', image: '/images/big-stout.png' },
-            { id: 'b2', name: 'Smirnoff (B)', description: 'Smirnoff Ice Black', price: '₦2,000', image: '/images/SmirnoffB.jpg' },
+            { id: 'b2', name: 'Smirnoff (B)', description: 'Smirnoff Ice Big', price: '₦2,000', image: '/images/SmirnoffB.jpg' },
             { id: 'b3', name: 'Budweiser', description: 'King of beers', price: '₦2,000', image: '/images/Budweiser.jpg' },
             { id: 'b4', name: 'Heineken', description: 'Premium lager', price: '₦2,000', image: '/images/heineken.jpg' },
             { id: 'b5', name: 'Legend', description: 'Extra stout', price: '₦2,000', image: '/images/stout.jpg' },
