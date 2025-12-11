@@ -123,13 +123,11 @@ export const menuData = {
             { id: 'sm17', name: 'Fry Catfish With Yam & Plantain', description: 'Fried catfish with yam and plantain', price: '₦15,000', image: '/images/catfish-yam.png' },
             { id: 'sm18', name: 'Sea Food Rice', description: 'Rice with assorted seafood', price: '₦20,000', image: '/images/seafood-rice.png' },
             { id: 'sm19', name: 'Spaghetti Jambalaya', description: 'Spicy spaghetti jambalaya', price: '₦13,500', image: '/images/spaghetti-jambalaya.png' },
-            { id: 'sm20', name: 'Black Soup', description: 'Traditional black soup', price: '₦15,000', image: '/images/black-soup.png' },
             { id: 'sm21', name: 'Pepper Snail', description: 'Spicy snail', price: '₦10,000', image: '/images/pepper-snail.png' },
-            { id: 'sm22', name: 'White Soup With Any Choice Of Swallow', description: 'White soup with swallow choice', price: '₦15,000', image: '/images/white-soup.png' },
             { id: 'sm23', name: 'Live Chicken Pepper Soup', description: 'Fresh chicken pepper soup', price: '₦30,000', image: '/images/chicken-peppersoup.png' },
             { id: 'sm24', name: 'Live Chicken BBQ', description: 'Fresh grilled chicken', price: '₦35,000', image: '/images/live-chicken-bbq.png' },
             { id: 'sm25', name: 'Food Platter', description: 'Assorted food platter', price: '₦25,000', image: '/images/food-platter.png' },
-            { id: 'sm26', name: 'Grilled Dragon (Full Goat)', description: 'Whole grilled goat', price: '₦250,000', image: '/images/grilled-goat.png' }
+            { id: 'sm26', name: 'Grilled Dragon (Full Goat)', description: 'Whole grilled goat', price: '₦250,000', image: '/images/grilled-goat.jpg' }
           ]
         },
         {
