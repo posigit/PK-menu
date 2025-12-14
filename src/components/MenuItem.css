@@ -72,12 +72,19 @@
   justify-content: center;
 }
 
-.menu-item-image-container.no-image::after {
-  content: 'PRESKEN';
-  font-family: var(--font-display);
-  color: rgba(50, 30, 20, 0.1);
-  font-weight: 700;
-  letter-spacing: 2px;
+.menu-item-image-container.no-image::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background-image: url('/images/presken-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
 }
 
 .menu-item-details {
