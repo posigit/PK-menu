@@ -129,7 +129,7 @@
 
 .footer-address h4,
 .footer-contact h4 {
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   margin-bottom: var(--spacing-sm);
@@ -347,7 +347,7 @@
   
   .footer-address h4,
   .footer-contact h4 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   
   .footer-address p {
