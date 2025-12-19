@@ -141,15 +141,63 @@
 
 @media (max-width: 480px) {
   .menu-item-image-container {
-    width: 100px;
-    min-height: 100px;
+    width: 90px;
+    min-height: 90px;
+  }
+  
+  .menu-item-details {
+    padding: var(--spacing-sm);
+  }
+  
+  .menu-item-header {
+    gap: var(--spacing-xs);
+    align-items: center;
   }
   
   .menu-item-title {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    flex: 1;
+    min-width: 0; /* Allow text to shrink */
+    line-height: 1.3;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
   
   .menu-item-price-luxury {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    flex-shrink: 0; /* Prevent price from shrinking */
+    margin-left: auto;
+  }
+  
+  .menu-item-desc {
+    font-size: 0.85rem;
+  }
+}
+
+/* Extra small screens (iPhone 5/SE and similar) */
+@media (max-width: 360px) {
+  .menu-item-image-container {
+    width: 80px;
+    min-height: 80px;
+  }
+  
+  .menu-item-details {
+    padding: 10px;
+  }
+  
+  .menu-item-header {
+    gap: 8px;
+  }
+  
+  .menu-item-title {
+    font-size: 0.9rem;
+  }
+  
+  .menu-item-price-luxury {
+    font-size: 0.9rem;
+  }
+  
+  .menu-item-desc {
+    font-size: 0.8rem;
   }
 }
