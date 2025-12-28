@@ -31,7 +31,7 @@ export const menuData = {
             { id: 'ap1', name: 'Pepper Soup', description: 'Chicken / Cow Tail / Cow Leg / Assorted Goat Meat / Turkey', price: '₦6,500', image: '/images/pepper-soup.pnga' },
             { id: 'ap2', name: 'Croaker Fish BBQ', description: 'Served with Chips', price: '₦15,000', image: '/images/croaker-bbq-chips.pnga' },
             { id: 'ap3', name: 'Croaker Fish Pepper Soup', description: 'Served with Yam or Rice', price: '₦14,000', image: '/images/croaker-pepper-soup.pnga' },
-            { id: 'ap4', name: 'Giant BBQ Croaker Fish', description: 'Whole grilled croaker', price: '₦25,000', image: '/images/giant-bbq-croaker.pnga' },
+            { id: 'ap4', name: 'Jumbo Croaker BBQ', description: 'Whole grilled croaker', price: '₦20,000', image: '/images/giant-bbq-croaker.pnga' },
             { id: 'ap5', name: 'Cat-Fish Pepper Soup', description: 'Served with Yam or Rice', price: '₦9,000', image: '/images/catfish-pepper-soup.pnga' },
             { id: 'ap6', name: 'Nkwobi', description: 'Spicy cow foot delicacy', price: '₦6,500', image: '/images/nkwobi.pnga' },
             { id: 'ap7', name: 'BBQ Cat-Fish', description: 'Grilled catfish', price: '₦10,000', image: '/images/bbq-catfish.pnga' },
