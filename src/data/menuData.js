@@ -123,7 +123,6 @@ export const menuData = {
             { id: 'sm17', name: 'Fry Catfish With Yam & Plantain', description: 'Fried catfish with yam and plantain', price: '₦15,000', image: '/images/catfish-yam.pnga' },
             { id: 'sm18', name: 'Sea Food Rice', description: 'Rice with assorted seafood', price: '₦20,000', image: '/images/seafood-rice.pnga' },
             { id: 'sm19', name: 'Spaghetti Jambalaya', description: 'Spicy spaghetti jambalaya', price: '₦13,500', image: '/images/spaghetti-jambalaya.pnga' },
-            { id: 'sm21', name: 'Pepper Snail', description: 'Spicy snail', price: '₦10,000', image: '/images/pepper-snail.pnga' },
             { id: 'sm23', name: 'Live Chicken Pepper Soup', description: 'Fresh chicken pepper soup', price: '₦30,000', image: '/images/chicken-peppersoup.pnga' },
             { id: 'sm24', name: 'Live Chicken BBQ', description: 'Fresh grilled chicken', price: '₦35,000', image: '/images/live-chicken-bbq.pnga' },
             { id: 'sm25', name: 'Food Platter', description: 'Assorted food platter', price: '₦25,000', image: '/images/food-platter.pnga' },
@@ -507,3 +506,4 @@ export const searchItems = (query) => {
   
   return results;
 };
+
