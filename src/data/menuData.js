@@ -188,7 +188,7 @@ export const menuData = {
             { id: 'b7', name: 'Star', description: 'Fine lager beer', price: '₦2,000', image: '/images/star.jpga' },
             { id: 'b8', name: 'Trophy Stout', description: 'Stout beer', price: '₦2,000', image: '/images/TrophyStout.jpga' },
             { id: 'b9', name: 'Goldberg', description: 'Lager beer', price: '₦2,000', image: '/images/goldberg.jpga' },
-            { id: 'b10', name: '33 Export', description: 'Lager beer', price: '₦2,000', image: '/images/33-export.jpga' },
+            { id: 'b10', name: '33 Export', description: 'Lager beer', price: '₦1,500', image: '/images/33-export.jpga' },
             { id: 'b11', name: 'Goldberg Black', description: 'Dark lager', price: '₦2,000', image: '/images/goldberg.jpga' },
             { id: 'b12', name: 'Medium Heineken', description: 'Lager beer', price: '₦2,000', image: '/images/heineken.jpga' },
             { id: 'b13', name: 'G/Smooth', description: 'Guinness Smooth', price: '₦2,000', image: '/images/stout.jpga' },
