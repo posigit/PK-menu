@@ -88,7 +88,7 @@ export const menuData = {
             { id: 'ex1', name: 'Swallow', description: 'Extra portion', price: '₦2,500', image: '/images/extra-swallow.pnga' },
             { id: 'ex2', name: 'Rice', description: 'Extra portion', price: '₦2,500', image: '/images/extra-rice.pnga' },
             { id: 'ex3', name: 'Plantain', description: 'Extra portion', price: '₦2,500', image: '/images/extra-plantain.pnga' },
-            { id: 'ex4', name: 'Protein', description: 'Extra portion', price: '₦6,000', image: '/images/extra-protein.pnga' }
+            { id: 'ex4', name: 'Protein', description: 'Extra portion', price: '₦6,500', image: '/images/extra-protein.pnga' }
           ]
         }
       ]
@@ -186,17 +186,17 @@ export const menuData = {
             { id: 'b5', name: 'Legend', description: 'Extra stout', price: '₦2,000', image: '/images/stout.jpga' },
             { id: 'b6', name: 'Gulder', description: 'The ultimate beer', price: '₦2,000', image: '/images/Gulder.jpga' },
             { id: 'b7', name: 'Star', description: 'Fine lager beer', price: '₦2,000', image: '/images/star.jpga' },
-            { id: 'b8', name: 'Trophy Stout', description: 'Stout beer', price: '₦2,000', image: '/images/TrophyStout.jpga' },
-            { id: 'b9', name: 'Goldberg', description: 'Lager beer', price: '₦2,000', image: '/images/goldberg.jpga' },
+            { id: 'b8', name: 'Trophy Stout', description: 'Stout beer', price: '₦1,500', image: '/images/TrophyStout.jpga' },
+            { id: 'b9', name: 'Goldberg', description: 'Lager beer', price: '₦1,500', image: '/images/goldberg.jpga' },
             { id: 'b10', name: '33 Export', description: 'Lager beer', price: '₦1,500', image: '/images/33-export.jpga' },
-            { id: 'b11', name: 'Goldberg Black', description: 'Dark lager', price: '₦2,000', image: '/images/goldberg.jpga' },
-            { id: 'b12', name: 'Medium Heineken', description: 'Lager beer', price: '₦2,000', image: '/images/heineken.jpga' },
-            { id: 'b13', name: 'G/Smooth', description: 'Guinness Smooth', price: '₦2,000', image: '/images/stout.jpga' },
-            { id: 'b14', name: 'Trophy', description: 'Lager beer', price: '₦2,000', image: '/images/Trophy.jpga' },
-            { id: 'b15', name: 'Desperado', description: 'Tequila flavoured beer', price: '₦2,000', image: '/images/desperados-pack.jpga' },
-            { id: 'b16', name: 'Hero', description: 'Lager beer', price: '₦2,000', image: '/images/hero.jpga' },
-            { id: 'b17', name: 'Tiger', description: 'Asian lager', price: '₦2,000', image: '/images/tiger.jpga' },
-            { id: 'b18', name: 'Castle Lite', description: 'Light beer', price: '₦2,000', image: '/images/Castle.jpga' },
+            { id: 'b11', name: 'Goldberg Black', description: 'Dark lager', price: '₦1,500', image: '/images/goldberg.jpga' },
+            { id: 'b12', name: 'Medium Heineken', description: 'Lager beer', price: '₦1,500', image: '/images/heineken.jpga' },
+            { id: 'b13', name: 'G/Smooth', description: 'Guinness Smooth', price: '₦1,500', image: '/images/stout.jpga' },
+            { id: 'b14', name: 'Trophy', description: 'Lager beer', price: '₦1,500', image: '/images/Trophy.jpga' },
+            { id: 'b15', name: 'Desperado', description: 'Tequila flavoured beer', price: '₦1,500', image: '/images/desperados-pack.jpga' },
+            { id: 'b16', name: 'Hero', description: 'Lager beer', price: '₦1,500', image: '/images/hero.jpga' },
+            { id: 'b17', name: 'Tiger', description: 'Asian lager', price: '₦1,500', image: '/images/tiger.jpga' },
+            { id: 'b18', name: 'Castle Lite', description: 'Light beer', price: '₦1,500', image: '/images/Castle.jpga' },
             { id: 'b19', name: 'Origin (B)', description: 'Herbal drink', price: '₦1,500', image: '/images/origin.jpga' },
             { id: 'b20', name: 'Small Stout', description: 'Guinness Extra Stout', price: '₦1,500', image: '/images/stout.jpga' },
             { id: 'b21', name: 'Flying Fish', description: 'Lager beer', price: '₦1,200', image: '/images/flyingFish.jpga' },
@@ -506,4 +506,5 @@ export const searchItems = (query) => {
   
   return results;
 };
+
 
