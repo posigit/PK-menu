@@ -180,7 +180,7 @@ function App() {
         <div className="footer-bottom">
           <div className="container">
             <div className="footer-bottom-content">
-              <p>Copyright © 2025 <span className="footer-brand-name">Presken Hotels & Resorts Limited</span>. All Rights Reserved.</p>
+              <p>Copyright © 2026 <span className="footer-brand-name">Presken Hotels & Resorts Limited</span>. All Rights Reserved.</p>
               <p className="developer-credit">
                 Developed by{' '}
                 <a 
@@ -201,3 +201,4 @@ function App() {
 }
 
 export default App;
+
