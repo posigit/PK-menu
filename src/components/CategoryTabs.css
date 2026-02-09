@@ -2,7 +2,8 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(253, 251, 247, 0.95); /* Warm Cream Glass */
+  background: rgba(253, 251, 247, 0.95);
+  /* Warm Cream Glass */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(50, 30, 20, 0.05);
@@ -32,15 +33,20 @@
 }
 
 @keyframes hintScroll {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateX(0);
   }
+
   25% {
     transform: translateX(8px);
   }
+
   50% {
     transform: translateX(0);
   }
+
   75% {
     transform: translateX(-8px);
   }
@@ -111,10 +117,13 @@
 }
 
 @keyframes pulseChevron {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.6;
     transform: translateX(0);
   }
+
   50% {
     opacity: 1;
     transform: translateX(4px);
@@ -132,7 +141,7 @@
   .category-tabs-wrapper-luxury {
     padding: var(--spacing-sm) 0;
   }
-  
+
   .category-tab-luxury {
     padding: 8px 20px;
     font-size: 0.9rem;
