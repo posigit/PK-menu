@@ -30,14 +30,14 @@ const Hero = ({ searchQuery, onSearchChange }) => {
         <div className="hero-background"></div>
         <div className="hero-overlay"></div>
       </div>
-
+      
       <div className={`hero-content ${loaded ? 'animate-in' : ''}`}>
-
+        
         <div className="logo-container">
           <a href="https://preskenhotels.com/" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/images/logo1.png"
-              alt="Presken Hotels & Resorts"
+            <img 
+              src="/images/logo1.png" 
+              alt="Presken Hotels & Resorts" 
               className="hero-logo"
             />
           </a>
@@ -47,27 +47,28 @@ const Hero = ({ searchQuery, onSearchChange }) => {
           <span className="text-gradient">Culinary</span> <br />
           Excellence
         </h1>
-
+        
         <p className="hero-description">
           Experience the finest dining and nightlife at Presken.
         </p>
 
         <div className="festive-greeting">
-          💖 Celebrate Love With Us 💖
+          ✨ Season's Greetings ✨
         </div>
 
         <div className="search-wrapper-luxury">
           <div className="search-glass">
-            <svg
-              className="search-icon-luxury"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
+            <svg 
+              className="search-icon-luxury" 
+              width="24" 
+              height="24" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
               strokeWidth="2"
             >
-              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
             </svg>
             <input
               type="text"
@@ -83,19 +84,19 @@ const Hero = ({ searchQuery, onSearchChange }) => {
           </div>
         </div>
       </div>
-
-      {/* Valentine Hearts */}
-      <div className="hearts" aria-hidden="true">
-        <div className="heart">❤️</div>
-        <div className="heart">💖</div>
-        <div className="heart">💓</div>
-        <div className="heart">💗</div>
-        <div className="heart">💘</div>
-        <div className="heart">💝</div>
-        <div className="heart">❤️</div>
-        <div className="heart">💖</div>
+      
+      {/* Christmas Snowflakes */}
+      <div className="snowflakes" aria-hidden="true">
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
       </div>
-
+      
       <div className="scroll-indicator">
         <div className="mouse">
           <div className="wheel"></div>
