@@ -30,41 +30,41 @@ const Hero = ({ searchQuery, onSearchChange }) => {
         <div className="hero-background"></div>
         <div className="hero-overlay"></div>
       </div>
-      
+
       <div className={`hero-content ${loaded ? 'animate-in' : ''}`}>
-        
+
         <div className="logo-container">
           <a href="https://preskenhotels.com/" target="_blank" rel="noopener noreferrer">
-            <img 
-              src="/images/logo1.png" 
-              alt="Presken Hotels & Resorts" 
+            <img
+              src="/images/logo1.png"
+              alt="Presken Hotels & Resorts"
               className="hero-logo"
             />
           </a>
+        </div>
+
+        <div className="brand-badge">
+          <span className="brand-subtitle">PREMIUM DINING EXPERIENCE</span>
         </div>
 
         <h1 className="hero-title">
           <span className="text-gradient">Culinary</span> <br />
           Excellence
         </h1>
-        
+
         <p className="hero-description">
           Experience the finest dining and nightlife at Presken.
         </p>
 
-        <div className="festive-greeting">
-          ✨ Season's Greetings ✨
-        </div>
-
         <div className="search-wrapper-luxury">
           <div className="search-glass">
-            <svg 
-              className="search-icon-luxury" 
-              width="24" 
-              height="24" 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="currentColor" 
+            <svg
+              className="search-icon-luxury"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
               strokeWidth="2"
             >
               <circle cx="11" cy="11" r="8"></circle>
@@ -84,19 +84,7 @@ const Hero = ({ searchQuery, onSearchChange }) => {
           </div>
         </div>
       </div>
-      
-      {/* Christmas Snowflakes */}
-      <div className="snowflakes" aria-hidden="true">
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-      </div>
-      
+
       <div className="scroll-indicator">
         <div className="mouse">
           <div className="wheel"></div>
