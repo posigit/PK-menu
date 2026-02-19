@@ -152,215 +152,215 @@ export const menuData = {
           id: 'soft-drinks',
           name: 'Soft Drinks',
           items: [
-            { id: 'sd1', name: 'Pet Mineral', description: 'Coke, Fanta, Sprite', price: '₦800', image: '/images/soft-drinks.jpga' },
-            { id: 'sd2', name: 'Teem', description: 'Refreshing soda', price: '₦800', image: '/images/team.jpga' },
-            { id: 'sd3', name: 'Pulpy', description: 'Fruit juice drink', price: '₦800', image: '/images/pulpy.jpga' },
-            { id: 'sd4', name: 'Fayrouz', description: 'Sparkling soft drink', price: '₦800', image: '/images/Fayrouz.jpga' },
-            { id: 'sd5', name: 'Small Water', description: 'Bottled water', price: '₦400', image: '/images/water.jpga' },
-            { id: 'sd6', name: 'Swan Water', description: 'Premium bottled water', price: '₦400', image: '/images/swanWater.jpga' },
-            { id: 'sd7', name: 'Big Water', description: 'Large bottled water', price: '₦700', image: '/images/bigwater.jpga' },
-            { id: 'sd8', name: 'Amstel Malt', description: 'Premium malt drink', price: '₦1,000', image: '/images/AmstelMalt.jpga' },
-            { id: 'sd9', name: 'Maltina', description: 'Classic malt drink', price: '₦1,000', image: '/images/malt.jpga' },
-            { id: 'sd10', name: 'Vita Milk', description: 'Soy milk drink', price: '₦2,500', image: '/images/vitamilk.jpga' },
-            { id: 'sd11', name: 'Schweppes', description: 'Sparkling mixer', price: '₦1,000', image: '/images/schweppes.jpga' }
+            { id: 'sd1', name: 'Pet Mineral', description: 'Coke, Fanta, Sprite', price: '₦860', image: '/images/soft-drinks.jpga' },
+            { id: 'sd2', name: 'Teem', description: 'Refreshing soda', price: '₦860', image: '/images/team.jpga' },
+            { id: 'sd3', name: 'Pulpy', description: 'Fruit juice drink', price: '₦860', image: '/images/pulpy.jpga' },
+            { id: 'sd4', name: 'Fayrouz', description: 'Sparkling soft drink', price: '₦860', image: '/images/Fayrouz.jpga' },
+            { id: 'sd5', name: 'Small Water', description: 'Bottled water', price: '₦430', image: '/images/water.jpga' },
+            { id: 'sd6', name: 'Swan Water', description: 'Premium bottled water', price: '₦430', image: '/images/swanWater.jpga' },
+            { id: 'sd7', name: 'Big Water', description: 'Large bottled water', price: '₦753', image: '/images/bigwater.jpga' },
+            { id: 'sd8', name: 'Amstel Malt', description: 'Premium malt drink', price: '₦1,075', image: '/images/AmstelMalt.jpga' },
+            { id: 'sd9', name: 'Maltina', description: 'Classic malt drink', price: '₦1,075', image: '/images/malt.jpga' },
+            { id: 'sd10', name: 'Vita Milk', description: 'Soy milk drink', price: '₦2,688', image: '/images/vitamilk.jpga' },
+            { id: 'sd11', name: 'Schweppes', description: 'Sparkling mixer', price: '₦1,075', image: '/images/schweppes.jpga' }
           ]
         },
         {
           id: 'juice',
           name: 'Juice',
           items: [
-            { id: 'j1', name: 'Active', description: 'Fruit juice', price: '₦3,000', image: '/images/active.jpga' },
-            { id: 'j2', name: 'Exotic', description: 'Exotic fruit blend', price: '₦3,000', image: '/images/exotic.jpga' },
-            { id: 'j3', name: 'Hollandia', description: 'Yogurt drink', price: '₦3,000', image: '/images/hollandia.jpga' },
-            { id: 'j4', name: 'Cranberry', description: 'Cranberry juice', price: '₦12,000', image: '/images/cranberry.jpga' }
+            { id: 'j1', name: 'Active', description: 'Fruit juice', price: '₦3,225', image: '/images/active.jpga' },
+            { id: 'j2', name: 'Exotic', description: 'Exotic fruit blend', price: '₦3,225', image: '/images/exotic.jpga' },
+            { id: 'j3', name: 'Hollandia', description: 'Yogurt drink', price: '₦3,225', image: '/images/hollandia.jpga' },
+            { id: 'j4', name: 'Cranberry', description: 'Cranberry juice', price: '₦12,900', image: '/images/cranberry.jpga' }
           ]
         },
         {
           id: 'beer',
           name: 'Beer',
           items: [
-            { id: 'b1', name: 'Big Stout', description: 'Guinness Extra Stout', price: '₦2,500', image: '/images/big-stout.pnga' },
-            { id: 'b2', name: 'Smirnoff (B)', description: 'Smirnoff Ice Big', price: '₦2,000', image: '/images/SmirnoffB.jpga' },
-            { id: 'b3', name: 'Budweiser', description: 'King of beers', price: '₦2,000', image: '/images/Budweiser.jpga' },
-            { id: 'b4', name: 'Heineken', description: 'Premium lager', price: '₦2,000', image: '/images/heineken.jpga' },
-            { id: 'b5', name: 'Legend', description: 'Extra stout', price: '₦2,000', image: '/images/stout.jpga' },
-            { id: 'b6', name: 'Gulder', description: 'The ultimate beer', price: '₦2,000', image: '/images/Gulder.jpga' },
-            { id: 'b7', name: 'Star', description: 'Fine lager beer', price: '₦2,000', image: '/images/star.jpga' },
-            { id: 'b8', name: 'Trophy Stout', description: 'Stout beer', price: '₦1,500', image: '/images/TrophyStout.jpga' },
-            { id: 'b9', name: 'Goldberg', description: 'Lager beer', price: '₦1,500', image: '/images/goldberg.jpga' },
-            { id: 'b10', name: '33 Export', description: 'Lager beer', price: '₦1,500', image: '/images/33-export.jpga' },
-            { id: 'b11', name: 'Goldberg Black', description: 'Dark lager', price: '₦1,500', image: '/images/goldberg.jpga' },
-            { id: 'b12', name: 'Medium Heineken', description: 'Lager beer', price: '₦1,500', image: '/images/heineken.jpga' },
-            { id: 'b13', name: 'G/Smooth', description: 'Guinness Smooth', price: '₦1,500', image: '/images/stout.jpga' },
-            { id: 'b14', name: 'Trophy', description: 'Lager beer', price: '₦1,500', image: '/images/Trophy.jpga' },
-            { id: 'b15', name: 'Desperado', description: 'Tequila flavoured beer', price: '₦1,500', image: '/images/desperados-pack.jpga' },
-            { id: 'b16', name: 'Hero', description: 'Lager beer', price: '₦1,500', image: '/images/hero.jpga' },
-            { id: 'b17', name: 'Tiger', description: 'Asian lager', price: '₦1,500', image: '/images/tiger.jpga' },
-            { id: 'b18', name: 'Castle Lite', description: 'Light beer', price: '₦1,500', image: '/images/Castle.jpga' },
-            { id: 'b19', name: 'Origin (B)', description: 'Herbal drink', price: '₦1,500', image: '/images/origin.jpga' },
-            { id: 'b20', name: 'Small Stout', description: 'Guinness Extra Stout', price: '₦1,500', image: '/images/stout.jpga' },
-            { id: 'b21', name: 'Flying Fish', description: 'Lager beer', price: '₦1,200', image: '/images/flyingFish.jpga' },
-            { id: 'b22', name: 'Star Radler', description: 'Citrus flavoured beer', price: '₦1,200', image: '/images/StarRadler.jpga' },
-            { id: 'b23', name: 'Smirnoff (S)', description: 'Smirnoff Ice', price: '₦1,000', image: '/images/Smirnoffsmall.jpga' }
+            { id: 'b1', name: 'Big Stout', description: 'Guinness Extra Stout', price: '₦2,688', image: '/images/big-stout.pnga' },
+            { id: 'b2', name: 'Smirnoff (B)', description: 'Smirnoff Ice Big', price: '₦2,150', image: '/images/SmirnoffB.jpga' },
+            { id: 'b3', name: 'Budweiser', description: 'King of beers', price: '₦2,150', image: '/images/Budweiser.jpga' },
+            { id: 'b4', name: 'Heineken', description: 'Premium lager', price: '₦2,150', image: '/images/heineken.jpga' },
+            { id: 'b5', name: 'Legend', description: 'Extra stout', price: '₦2,150', image: '/images/stout.jpga' },
+            { id: 'b6', name: 'Gulder', description: 'The ultimate beer', price: '₦2,150', image: '/images/Gulder.jpga' },
+            { id: 'b7', name: 'Star', description: 'Fine lager beer', price: '₦2,150', image: '/images/star.jpga' },
+            { id: 'b8', name: 'Trophy Stout', description: 'Stout beer', price: '₦1,613', image: '/images/TrophyStout.jpga' },
+            { id: 'b9', name: 'Goldberg', description: 'Lager beer', price: '₦1,613', image: '/images/goldberg.jpga' },
+            { id: 'b10', name: '33 Export', description: 'Lager beer', price: '₦1,613', image: '/images/33-export.jpga' },
+            { id: 'b11', name: 'Goldberg Black', description: 'Dark lager', price: '₦1,613', image: '/images/goldberg.jpga' },
+            { id: 'b12', name: 'Medium Heineken', description: 'Lager beer', price: '₦1,613', image: '/images/heineken.jpga' },
+            { id: 'b13', name: 'G/Smooth', description: 'Guinness Smooth', price: '₦1,613', image: '/images/stout.jpga' },
+            { id: 'b14', name: 'Trophy', description: 'Lager beer', price: '₦1,613', image: '/images/Trophy.jpga' },
+            { id: 'b15', name: 'Desperado', description: 'Tequila flavoured beer', price: '₦1,613', image: '/images/desperados-pack.jpga' },
+            { id: 'b16', name: 'Hero', description: 'Lager beer', price: '₦1,613', image: '/images/hero.jpga' },
+            { id: 'b17', name: 'Tiger', description: 'Asian lager', price: '₦1,613', image: '/images/tiger.jpga' },
+            { id: 'b18', name: 'Castle Lite', description: 'Light beer', price: '₦1,613', image: '/images/Castle.jpga' },
+            { id: 'b19', name: 'Origin (B)', description: 'Herbal drink', price: '₦1,613', image: '/images/origin.jpga' },
+            { id: 'b20', name: 'Small Stout', description: 'Guinness Extra Stout', price: '₦1,613', image: '/images/stout.jpga' },
+            { id: 'b21', name: 'Flying Fish', description: 'Lager beer', price: '₦1,290', image: '/images/flyingFish.jpga' },
+            { id: 'b22', name: 'Star Radler', description: 'Citrus flavoured beer', price: '₦1,290', image: '/images/StarRadler.jpga' },
+            { id: 'b23', name: 'Smirnoff (S)', description: 'Smirnoff Ice', price: '₦1,075', image: '/images/Smirnoffsmall.jpga' }
           ]
         },
         {
           id: 'energy-drinks',
           name: 'Energy Drinks',
           items: [
-            { id: 'ed1', name: 'Power Horse', description: 'Energy drink', price: '₦2,500', image: '/images/energy.jpga' },
-            { id: 'ed2', name: 'Red Bull', description: 'Energy drink', price: '₦2,500', image: '/images/redbull.jpga' },
-            { id: 'ed3', name: 'Monster', description: 'Energy drink', price: '₦2,500', image: '/images/monster.jpga' },
-            { id: 'ed4', name: 'Black Bullet', description: 'Energy drink', price: '₦2,500', image: '/images/bullet.jpga' }
+            { id: 'ed1', name: 'Power Horse', description: 'Energy drink', price: '₦2,688', image: '/images/energy.jpga' },
+            { id: 'ed2', name: 'Red Bull', description: 'Energy drink', price: '₦2,688', image: '/images/redbull.jpga' },
+            { id: 'ed3', name: 'Monster', description: 'Energy drink', price: '₦2,688', image: '/images/monster.jpga' },
+            { id: 'ed4', name: 'Black Bullet', description: 'Energy drink', price: '₦2,688', image: '/images/bullet.jpga' }
           ]
         },
         {
           id: 'sparkling-drinks',
           name: 'Sparkling Drinks',
           items: [
-            { id: 'spd1', name: 'Andre Brut', description: 'Sparkling wine', price: '₦20,000', image: '/images/Andre-Brut.jpga' },
-            { id: 'spd2', name: 'Andre Rose', description: 'Sparkling rosé', price: '₦20,000', image: '/images/Andre-Rose.jpga' },
-            { id: 'spd3', name: 'Chamdor', description: 'Non-alcoholic sparkling', price: '₦9,000', image: '/images/chamdor.jpga' }
+            { id: 'spd1', name: 'Andre Brut', description: 'Sparkling wine', price: '₦21,500', image: '/images/Andre-Brut.jpga' },
+            { id: 'spd2', name: 'Andre Rose', description: 'Sparkling rosé', price: '₦21,500', image: '/images/Andre-Rose.jpga' },
+            { id: 'spd3', name: 'Chamdor', description: 'Non-alcoholic sparkling', price: '₦9,675', image: '/images/chamdor.jpga' }
           ]
         },
         {
           id: 'rum',
           name: 'Rum',
           items: [
-            { id: 'r1', name: 'Bacardi', description: 'White rum', price: '₦25,000', image: '/images/rum.jpga' }
+            { id: 'r1', name: 'Bacardi', description: 'White rum', price: '₦26,875', image: '/images/rum.jpga' }
           ]
         },
         {
           id: 'tequila',
           name: 'Tequila',
           items: [
-            { id: 't1', name: 'Olmeca Tequila', description: 'Silver tequila', price: '₦45,000', image: '/images/Olmeca.jpga' },
-            { id: 't2', name: 'Sierra Tequila', description: 'Silver tequila', price: '₦25,000', image: '/images/Sierra.jpga' }
+            { id: 't1', name: 'Olmeca Tequila', description: 'Silver tequila', price: '₦48,375', image: '/images/Olmeca.jpga' },
+            { id: 't2', name: 'Sierra Tequila', description: 'Silver tequila', price: '₦26,875', image: '/images/Sierra.jpga' }
           ]
         },
         {
           id: 'vodka',
           name: 'Vodka',
           items: [
-            { id: 'v1', name: 'Absolute Vodka (S)', description: 'Small bottle', price: '₦10,000', image: '/images/vodka.jpga' },
-            { id: 'v2', name: 'Absolute Vodka (B)', description: 'Big bottle', price: '₦30,000', image: '/images/vodka.jpga' },
-            { id: 'v3', name: 'Smirnoff Choco (B)', description: 'Chocolate flavoured', price: '₦12,000', image: '/images/SmirnoffChoco.jpga' },
-            { id: 'v4', name: 'Smirnoff Choco (S)', description: 'Chocolate flavoured', price: '₦3,000', image: '/images/SmirnoffChocoSmall.jpga' },
-            { id: 'v5', name: 'Magic Moment (B)', description: 'Premium vodka', price: '₦12,000', image: '/images/MagicMoment.jpga' },
-            { id: 'v6', name: 'Magic Moment (S)', description: 'Premium vodka', price: '₦3,500', image: '/images/MagicMoment.jpga' },
-            { id: 'v7', name: 'Grant (B)', description: 'Blended scotch', price: '₦10,000', image: '/images/Grant.jpga' },
-            { id: 'v8', name: 'Grant (S)', description: 'Blended scotch', price: '₦6,000', image: '/images/Grant.jpga' }
+            { id: 'v1', name: 'Absolute Vodka (S)', description: 'Small bottle', price: '₦10,750', image: '/images/vodka.jpga' },
+            { id: 'v2', name: 'Absolute Vodka (B)', description: 'Big bottle', price: '₦32,250', image: '/images/vodka.jpga' },
+            { id: 'v3', name: 'Smirnoff Choco (B)', description: 'Chocolate flavoured', price: '₦12,900', image: '/images/SmirnoffChoco.jpga' },
+            { id: 'v4', name: 'Smirnoff Choco (S)', description: 'Chocolate flavoured', price: '₦3,225', image: '/images/SmirnoffChocoSmall.jpga' },
+            { id: 'v5', name: 'Magic Moment (B)', description: 'Premium vodka', price: '₦12,900', image: '/images/MagicMoment.jpga' },
+            { id: 'v6', name: 'Magic Moment (S)', description: 'Premium vodka', price: '₦3,763', image: '/images/MagicMoment.jpga' },
+            { id: 'v7', name: 'Grant (B)', description: 'Blended scotch', price: '₦10,750', image: '/images/Grant.jpga' },
+            { id: 'v8', name: 'Grant (S)', description: 'Blended scotch', price: '₦6,450', image: '/images/Grant.jpga' }
           ]
         },
         {
           id: 'bitters',
           name: 'Bitters (Bottles)',
           items: [
-            { id: 'bt1', name: 'Action Bitters (B)', description: 'Herbal bitters', price: '₦8,000', image: '/images/bitters.jpga' },
-            { id: 'bt2', name: 'Action Bitters (M)', description: 'Herbal bitters', price: '₦3,000', image: '/images/bitters.jpga' },
-            { id: 'bt3', name: 'Action Bitters (S)', description: 'Herbal bitters', price: '₦1,500', image: '/images/bitters.jpga' },
-            { id: 'bt4', name: 'Origin Bottle Big', description: 'Herbal drink', price: '₦8,000', image: '/images/origin.jpga' },
-            { id: 'bt5', name: 'Origin Bitters (B)', description: 'Herbal bitters', price: '₦6,000', image: '/images/origin.jpga' },
-            { id: 'bt6', name: 'Origin Bitters (M)', description: 'Herbal bitters', price: '₦3,000', image: '/images/origin.jpga' },
-            { id: 'bt7', name: 'Origin Beer', description: 'Herbal beer', price: '₦1,500', image: '/images/origin.jpga' },
-            { id: 'bt8', name: 'Kolaq Alagbo', description: 'Herbal mixture', price: '₦1,500', image: '/images/Alagbo.jpga' },
-            { id: 'bt9', name: 'Odogwu Bitters', description: 'Herbal bitters', price: '₦1,500', image: '/images/Odogwu.jpga' },
-            { id: 'bt10', name: 'Judge Bitters', description: 'Herbal bitters', price: '₦1,500', image: '/images/Judge.jpga' },
-            { id: 'bt11', name: 'Plastic Origin', description: 'Herbal drink', price: '₦2,000', image: '/images/originPlastic.jpga' }
+            { id: 'bt1', name: 'Action Bitters (B)', description: 'Herbal bitters', price: '₦8,600', image: '/images/bitters.jpga' },
+            { id: 'bt2', name: 'Action Bitters (M)', description: 'Herbal bitters', price: '₦3,225', image: '/images/bitters.jpga' },
+            { id: 'bt3', name: 'Action Bitters (S)', description: 'Herbal bitters', price: '₦1,613', image: '/images/bitters.jpga' },
+            { id: 'bt4', name: 'Origin Bottle Big', description: 'Herbal drink', price: '₦8,600', image: '/images/origin.jpga' },
+            { id: 'bt5', name: 'Origin Bitters (B)', description: 'Herbal bitters', price: '₦6,450', image: '/images/origin.jpga' },
+            { id: 'bt6', name: 'Origin Bitters (M)', description: 'Herbal bitters', price: '₦3,225', image: '/images/origin.jpga' },
+            { id: 'bt7', name: 'Origin Beer', description: 'Herbal beer', price: '₦1,613', image: '/images/origin.jpga' },
+            { id: 'bt8', name: 'Kolaq Alagbo', description: 'Herbal mixture', price: '₦1,613', image: '/images/Alagbo.jpga' },
+            { id: 'bt9', name: 'Odogwu Bitters', description: 'Herbal bitters', price: '₦1,613', image: '/images/Odogwu.jpga' },
+            { id: 'bt10', name: 'Judge Bitters', description: 'Herbal bitters', price: '₦1,613', image: '/images/Judge.jpga' },
+            { id: 'bt11', name: 'Plastic Origin', description: 'Herbal drink', price: '₦2,150', image: '/images/originPlastic.jpga' }
           ]
         },
         {
           id: 'gin',
           name: 'Gin',
           items: [
-            { id: 'g1', name: 'Gordon\'s Gin (B)', description: 'London dry gin', price: '₦15,000', image: '/images/gin.jpga' },
-            { id: 'g2', name: 'Gordon\'s Gin (M)', description: 'London dry gin', price: '₦5,000', image: '/images/gin.jpga' },
-            { id: 'g3', name: 'Gordon\'s Gin (S)', description: 'London dry gin', price: '₦3,000', image: '/images/gin.jpga' },
-            { id: 'g4', name: 'Pink Gordon', description: 'Pink gin', price: '₦15,000', image: '/images/pinkgin.jpga' }
+            { id: 'g1', name: 'Gordon\'s Gin (B)', description: 'London dry gin', price: '₦16,125', image: '/images/gin.jpga' },
+            { id: 'g2', name: 'Gordon\'s Gin (M)', description: 'London dry gin', price: '₦5,375', image: '/images/gin.jpga' },
+            { id: 'g3', name: 'Gordon\'s Gin (S)', description: 'London dry gin', price: '₦3,225', image: '/images/gin.jpga' },
+            { id: 'g4', name: 'Pink Gordon', description: 'Pink gin', price: '₦16,125', image: '/images/pinkgin.jpga' }
           ]
         },
         {
           id: 'aperitif',
           name: 'Aperitif',
           items: [
-            { id: 'ap1', name: 'Campari (B)', description: 'Italian aperitif', price: '₦40,000', image: '/images/campari.jpga' },
-            { id: 'ap2', name: 'Campari (M)', description: 'Italian aperitif', price: '₦30,000', image: '/images/campari.jpga' },
-            { id: 'ap3', name: 'Campari (S)', description: 'Italian aperitif', price: '₦12,000', image: '/images/campari.jpga' }
+            { id: 'ap1', name: 'Campari (B)', description: 'Italian aperitif', price: '₦43,000', image: '/images/campari.jpga' },
+            { id: 'ap2', name: 'Campari (M)', description: 'Italian aperitif', price: '₦32,250', image: '/images/campari.jpga' },
+            { id: 'ap3', name: 'Campari (S)', description: 'Italian aperitif', price: '₦12,900', image: '/images/campari.jpga' }
           ]
         },
         {
           id: 'whisky',
           name: 'Whisky',
           items: [
-            { id: 'w1', name: 'Black Label', description: 'Johnnie Walker', price: '₦60,000', image: '/images/BlackLabel.jpga' },
-            { id: 'w2', name: 'Red Label (B)', description: 'Johnnie Walker', price: '₦30,000', image: '/images/redLabel.jpga' },
-            { id: 'w3', name: 'Jack Daniels', description: 'Tennessee whiskey', price: '₦40,000', image: '/images/Jack.jpga' },
-            { id: 'w4', name: 'Altemura', description: 'Premium spirit', price: '₦100,000', image: '/images/Altemura.jpga' },
-            { id: 'w5', name: 'Glenfiddich 18 Years', description: 'Single malt scotch', price: '₦200,000', image: '/images/Glenfiddich18.jpga' },
-            { id: 'w6', name: 'Glenfiddich 15 Years', description: 'Single malt scotch', price: '₦150,000', image: '/images/Glenfiddich15.jpga' },
-            { id: 'w7', name: 'Glenfiddich 12 Years', description: 'Single malt scotch', price: '₦120,000', image: '/images/Glenfiddich12.jpga' },
-            { id: 'w8', name: 'Jameson (B)', description: 'Irish whiskey', price: '₦40,000', image: '/images/Jameson2.jpga' },
-            { id: 'w9', name: 'Jameson (S)', description: 'Irish whiskey', price: '₦15,000', image: '/images/Jameson2.jpga' },
-            { id: 'w10', name: 'Black Barrel', description: 'Jameson Select Reserve', price: '₦60,000', image: '/images/Jameson-Black-barrel.jpga' },
-            { id: 'w11', name: 'Best Whisky (B)', description: 'Blended whisky', price: '₦10,000', image: '/images/Blended-Scotch-Whisky.jpga' },
-            { id: 'w12', name: 'Best Whisky (S)', description: 'Blended whisky', price: '₦3,000', image: '/images/Blended-Scotch-Whisky.jpga' },
-            { id: 'w13', name: 'William Lawson', description: 'Blended scotch', price: '₦25,000', image: '/images/William-Lawson.jpga' },
-            { id: 'w14', name: 'Monkey Shoulder', description: 'Blended malt scotch', price: '₦75,000', image: '/images/Ginger_Monkey_serve_bottle_shot.jpga' }
+            { id: 'w1', name: 'Black Label', description: 'Johnnie Walker', price: '₦64,500', image: '/images/BlackLabel.jpga' },
+            { id: 'w2', name: 'Red Label (B)', description: 'Johnnie Walker', price: '₦32,250', image: '/images/redLabel.jpga' },
+            { id: 'w3', name: 'Jack Daniels', description: 'Tennessee whiskey', price: '₦43,000', image: '/images/Jack.jpga' },
+            { id: 'w4', name: 'Altemura', description: 'Premium spirit', price: '₦107,500', image: '/images/Altemura.jpga' },
+            { id: 'w5', name: 'Glenfiddich 18 Years', description: 'Single malt scotch', price: '₦215,000', image: '/images/Glenfiddich18.jpga' },
+            { id: 'w6', name: 'Glenfiddich 15 Years', description: 'Single malt scotch', price: '₦161,250', image: '/images/Glenfiddich15.jpga' },
+            { id: 'w7', name: 'Glenfiddich 12 Years', description: 'Single malt scotch', price: '₦129,000', image: '/images/Glenfiddich12.jpga' },
+            { id: 'w8', name: 'Jameson (B)', description: 'Irish whiskey', price: '₦43,000', image: '/images/Jameson2.jpga' },
+            { id: 'w9', name: 'Jameson (S)', description: 'Irish whiskey', price: '₦16,125', image: '/images/Jameson2.jpga' },
+            { id: 'w10', name: 'Black Barrel', description: 'Jameson Select Reserve', price: '₦64,500', image: '/images/Jameson-Black-barrel.jpga' },
+            { id: 'w11', name: 'Best Whisky (B)', description: 'Blended whisky', price: '₦10,750', image: '/images/Blended-Scotch-Whisky.jpga' },
+            { id: 'w12', name: 'Best Whisky (S)', description: 'Blended whisky', price: '₦3,225', image: '/images/Blended-Scotch-Whisky.jpga' },
+            { id: 'w13', name: 'William Lawson', description: 'Blended scotch', price: '₦26,875', image: '/images/William-Lawson.jpga' },
+            { id: 'w14', name: 'Monkey Shoulder', description: 'Blended malt scotch', price: '₦80,625', image: '/images/Ginger_Monkey_serve_bottle_shot.jpga' }
           ]
         },
         {
           id: 'cognac',
           name: 'Cognac',
           items: [
-            { id: 'c1', name: 'Hennessy V.S.O.P.', description: 'Very Superior Old Pale', price: '₦180,000', image: '/images/hennessy.jpga' },
-            { id: 'c2', name: 'Hennessy VS', description: 'Very Special', price: '₦90,000', image: '/images/hennessy.jpga' },
-            { id: 'c3', name: 'Remy Martins V.S.O.P.', description: 'Fine Champagne Cognac', price: '₦80,000', image: '/images/martin.jpga' },
-            { id: 'c4', name: 'Remy Martins VS', description: 'Fine Champagne Cognac', price: '₦60,000', image: '/images/cognac.jpga' },
-            { id: 'c5', name: 'Martel VS', description: 'Fine Cognac', price: '₦60,000', image: '/images/martel.jpga' },
-            { id: 'c6', name: 'Martel Swift', description: 'Fine Cognac', price: '₦130,000', image: '/images/cognac.jpga' }
+            { id: 'c1', name: 'Hennessy V.S.O.P.', description: 'Very Superior Old Pale', price: '₦193,500', image: '/images/hennessy.jpga' },
+            { id: 'c2', name: 'Hennessy VS', description: 'Very Special', price: '₦96,750', image: '/images/hennessy.jpga' },
+            { id: 'c3', name: 'Remy Martins V.S.O.P.', description: 'Fine Champagne Cognac', price: '₦86,000', image: '/images/martin.jpga' },
+            { id: 'c4', name: 'Remy Martins VS', description: 'Fine Champagne Cognac', price: '₦64,500', image: '/images/cognac.jpga' },
+            { id: 'c5', name: 'Martel VS', description: 'Fine Cognac', price: '₦64,500', image: '/images/martel.jpga' },
+            { id: 'c6', name: 'Martel Swift', description: 'Fine Cognac', price: '₦139,750', image: '/images/cognac.jpga' }
           ]
         },
         {
           id: 'champagne',
           name: 'Champagne',
           items: [
-            { id: 'ch1', name: 'Moet Brut', description: 'Impérial Brut', price: '₦150,000', image: '/images/Moet.jpga' },
-            { id: 'ch2', name: 'Moet Rose', description: 'Impérial Rosé', price: '₦200,000', image: '/images/Moet2.jpga' }
+            { id: 'ch1', name: 'Moet Brut', description: 'Impérial Brut', price: '₦161,250', image: '/images/Moet.jpga' },
+            { id: 'ch2', name: 'Moet Rose', description: 'Impérial Rosé', price: '₦215,000', image: '/images/Moet2.jpga' }
           ]
         },
         {
           id: 'liquor',
           name: 'Liquor',
           items: [
-            { id: 'l1', name: 'Baileys (Imported)', description: 'Irish Cream', price: '₦35,000', image: '/images/Baileys.jpga' },
-            { id: 'l2', name: 'Baileys (Delight)', description: 'Irish Cream', price: '₦15,000', image: '/images/Baileys(Delight).jpga' },
-            { id: 'l3', name: 'Baileys (S)', description: 'Irish Cream', price: '₦2,500', image: '/images/Baileys(S).jpga' },
-            { id: 'l4', name: 'Amarula (B)', description: 'Cream Liqueur', price: '₦20,000', image: '/images/amarula.jpga' },
-            { id: 'l5', name: 'Amarula (S)', description: 'Cream Liqueur', price: '₦6,000', image: '/images/amarula.jpga' },
-            { id: 'l6', name: 'Best Cream (B)', description: 'Cream Liqueur', price: '₦12,000', image: '/images/best-cream-liqueur.jpga' },
-            { id: 'l7', name: 'Best Cream (S)', description: 'Cream Liqueur', price: '₦3,500', image: '/images/BEST_CREAM_.jpga' }
+            { id: 'l1', name: 'Baileys (Imported)', description: 'Irish Cream', price: '₦37,625', image: '/images/Baileys.jpga' },
+            { id: 'l2', name: 'Baileys (Delight)', description: 'Irish Cream', price: '₦16,125', image: '/images/Baileys(Delight).jpga' },
+            { id: 'l3', name: 'Baileys (S)', description: 'Irish Cream', price: '₦2,688', image: '/images/Baileys(S).jpga' },
+            { id: 'l4', name: 'Amarula (B)', description: 'Cream Liqueur', price: '₦21,500', image: '/images/amarula.jpga' },
+            { id: 'l5', name: 'Amarula (S)', description: 'Cream Liqueur', price: '₦6,450', image: '/images/amarula.jpga' },
+            { id: 'l6', name: 'Best Cream (B)', description: 'Cream Liqueur', price: '₦12,900', image: '/images/best-cream-liqueur.jpga' },
+            { id: 'l7', name: 'Best Cream (S)', description: 'Cream Liqueur', price: '₦3,763', image: '/images/BEST_CREAM_.jpga' }
           ]
         },
         {
           id: 'red-wines',
           name: 'Red Wines',
           items: [
-            { id: 'rw1', name: 'Agor', description: 'Red wine', price: '₦13,000', image: '/images/agor.jpga' },
-            { id: 'rw2', name: 'Cape Discovery', description: 'Red wine', price: '₦8,000', image: '/images/cape.jpga' },
-            { id: 'rw3', name: 'Carlo Rossi', description: 'Red wine', price: '₦15,000', image: '/images/rossi.jpga' },
-            { id: 'rw4', name: 'Casillero Dee Diabio (B)', description: 'Red wine', price: '₦20,000', image: '/images/diabio.jpga' },
-            { id: 'rw5', name: 'Drostdy Hof (B)', description: 'Red wine', price: '₦15,000', image: '/images/DrostdyHof(B).jpga' },
-            { id: 'rw6', name: 'Drostdy Hof (S)', description: 'Red wine', price: '₦7,000', image: '/images/DrostdyHof(B).jpga' },
-            { id: 'rw7', name: 'Escodo Rojo', description: 'Red wine', price: '₦35,000', image: '/images/EscodoRojo.jpga' },
-            { id: 'rw8', name: 'Four Cousin', description: 'Red wine', price: '₦12,000', image: '/images/FC-I.jpga' },
-            { id: 'rw9', name: '4th Street', description: 'Sweet red wine', price: '₦10,000', image: '/images/street.jpga' },
-            { id: 'rw10', name: 'B&G Cuvee Special', description: 'Red wine', price: '₦15,000', image: '/images/special.jpga' },
-            { id: 'rw11', name: 'Baron De Romero', description: 'Red wine', price: '₦8,000', image: '/images/baron.jpga' },
-            { id: 'rw12', name: 'Baron De valls', description: 'Red wine', price: '₦8,000', image: '/images/baron-de-Valls.jpga' },
-            { id: 'rw13', name: 'De vin', description: 'Red wine', price: '₦10,000', image: '/images/devin.jpga' },
-            { id: 'rw14', name: 'Declan', description: 'Red wine', price: '₦15,000', image: '/images/declan.jpga' },
-            { id: 'rw15', name: 'Oviation', description: 'Red wine', price: '₦12,000', image: '/images/oviation.jpga' },
-            { id: 'rw16', name: 'Pure Heaven', description: 'Non-alcoholic wine', price: '₦12,000', image: '/images/pureheaven.jpga' }
+            { id: 'rw1', name: 'Agor', description: 'Red wine', price: '₦13,975', image: '/images/agor.jpga' },
+            { id: 'rw2', name: 'Cape Discovery', description: 'Red wine', price: '₦8,600', image: '/images/cape.jpga' },
+            { id: 'rw3', name: 'Carlo Rossi', description: 'Red wine', price: '₦16,125', image: '/images/rossi.jpga' },
+            { id: 'rw4', name: 'Casillero Dee Diabio (B)', description: 'Red wine', price: '₦21,500', image: '/images/diabio.jpga' },
+            { id: 'rw5', name: 'Drostdy Hof (B)', description: 'Red wine', price: '₦16,125', image: '/images/DrostdyHof(B).jpga' },
+            { id: 'rw6', name: 'Drostdy Hof (S)', description: 'Red wine', price: '₦7,525', image: '/images/DrostdyHof(B).jpga' },
+            { id: 'rw7', name: 'Escodo Rojo', description: 'Red wine', price: '₦37,625', image: '/images/EscodoRojo.jpga' },
+            { id: 'rw8', name: 'Four Cousin', description: 'Red wine', price: '₦12,900', image: '/images/FC-I.jpga' },
+            { id: 'rw9', name: '4th Street', description: 'Sweet red wine', price: '₦10,750', image: '/images/street.jpga' },
+            { id: 'rw10', name: 'B&G Cuvee Special', description: 'Red wine', price: '₦16,125', image: '/images/special.jpga' },
+            { id: 'rw11', name: 'Baron De Romero', description: 'Red wine', price: '₦8,600', image: '/images/baron.jpga' },
+            { id: 'rw12', name: 'Baron De valls', description: 'Red wine', price: '₦8,600', image: '/images/baron-de-Valls.jpga' },
+            { id: 'rw13', name: 'De vin', description: 'Red wine', price: '₦10,750', image: '/images/devin.jpga' },
+            { id: 'rw14', name: 'Declan', description: 'Red wine', price: '₦16,125', image: '/images/declan.jpga' },
+            { id: 'rw15', name: 'Oviation', description: 'Red wine', price: '₦12,900', image: '/images/oviation.jpga' },
+            { id: 'rw16', name: 'Pure Heaven', description: 'Non-alcoholic wine', price: '₦12,900', image: '/images/pureheaven.jpga' }
           ]
         }
       ]
@@ -426,7 +426,7 @@ export const menuData = {
           name: 'Fresh Smoothies',
           items: [
             { id: 'fs1', name: 'Tropical Splash Smoothie', description: 'Mixed tropical fruits', price: '₦5,000', image: '/images/tropical-smoothie.jpega' },
-            { id: 'fs2', name: 'Strawberry/Banana', description: 'Classic fruit smoothie', price: '₦5,000', image: '/images/strawberry-banana.jpega' }
+            { id: 'fs2', name: 'Strawberry / Banana', description: 'Classic fruit smoothie', price: '₦5,000', image: '/images/strawberry-banana.jpega' }
           ]
         },
         {
@@ -467,10 +467,10 @@ export const getItemsByCategory = (categoryId) => {
     });
     return allItems;
   }
-  
+
   const category = menuData.categories.find(cat => cat.id === categoryId);
   if (!category) return [];
-  
+
   const items = [];
   category.subcategories.forEach(subcategory => {
     items.push(...subcategory.items);
@@ -487,10 +487,10 @@ export const getCategoryData = (categoryId) => {
 export const searchItems = (query) => {
   const lowerQuery = query.toLowerCase();
   const results = [];
-  
+
   menuData.categories.forEach(category => {
     category.subcategories.forEach(subcategory => {
-      const matchingItems = subcategory.items.filter(item => 
+      const matchingItems = subcategory.items.filter(item =>
         item.name.toLowerCase().includes(lowerQuery) ||
         item.description.toLowerCase().includes(lowerQuery)
       );
@@ -503,7 +503,7 @@ export const searchItems = (query) => {
       }
     });
   });
-  
+
   return results;
 };
 
