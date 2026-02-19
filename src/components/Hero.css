@@ -309,7 +309,6 @@
 @media (max-width: 768px) {
   .hero {
     height: 60vh;
-    min-height: 550px;
   }
 
   .hero-logo {
@@ -319,84 +318,21 @@
   .hero-title {
     font-size: 2.5rem;
   }
+}
 
+@media (max-width: 360px) {
   .vat-notice {
-    padding: 6px 14px;
+    padding: 6px 12px;
+    gap: 6px;
   }
 
   .vat-notice span {
     font-size: 0.72rem;
-  }
-}
-
-@media (max-width: 380px) {
-  .hero {
-    min-height: 500px;
-  }
-
-  .hero-content {
-    padding: 0 var(--spacing-md);
-  }
-
-  .logo-container {
-    margin-bottom: var(--spacing-sm);
-  }
-
-  .hero-logo {
-    max-width: 140px;
-  }
-
-  .brand-badge {
-    margin-bottom: var(--spacing-sm);
-    padding: 3px 10px;
-  }
-
-  .brand-subtitle {
-    font-size: 0.6rem;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-    margin-bottom: var(--spacing-sm);
-  }
-
-  .hero-description {
-    font-size: 0.9rem;
-    margin-bottom: var(--spacing-md);
-  }
-
-  .vat-notice {
-    padding: 5px 12px;
-    gap: 6px;
-    margin-bottom: var(--spacing-sm);
+    letter-spacing: 0.02em;
   }
 
   .vat-notice-icon {
     width: 13px;
     height: 13px;
-  }
-
-  .vat-notice span {
-    font-size: 0.65rem;
-  }
-
-  .search-glass {
-    padding: 4px;
-  }
-
-  .search-input-luxury {
-    padding: 10px;
-    font-size: 0.85rem;
-  }
-
-  .search-icon-luxury {
-    margin-left: 12px;
-    width: 20px;
-    height: 20px;
-  }
-
-  .search-button-luxury {
-    padding: 8px 16px;
-    font-size: 0.8rem;
   }
 }
